@@ -1,0 +1,16 @@
+{
+  "schema_version": "0.1",
+  "array_config": "../array/ula16_v1.json",
+  "speech_manifest": "../../data/manifests/libri_examples.json",
+  "duration_s": 10,
+  "seed": 20260921,
+  "angles_deg": [-45, 0, 50],
+  "active_rms": 0.04,
+  "noise_snr_db": 20,
+  "trim_samples": 2400,
+  "fft_sizes": [512, 1024],
+  "block_size": 733,
+  "constraint_band_hz": [100, 5000],
+  "min_wng_db": -10,
+  "max_condition": 10000
+}

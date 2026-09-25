@@ -1,0 +1,13 @@
+{
+  "parent_run": "../../artifacts/runs/g1_room_20260923T171109_297143Z",
+  "baseline_run": "../../artifacts/runs/w4_music_20260924T144429_585399Z",
+  "cases": ["r2_gap15_rt0.4", "r2_gap45_rt0.4", "r3_gap15_rt0.4", "r3_gap45_rt0.4"],
+  "source_subsets": [[0], [1], [2], [0, 1], [1, 2], [0, 1, 2]],
+  "modes": ["direct_only", "reverberant"],
+  "observation_seconds": 3,
+  "fft_size": 512,
+  "band_hz": [500, 5000],
+  "angle_grid_deg": [-90, 90, 1],
+  "minimum_separation_deg": 10,
+  "matching_tolerance_deg": 5
+}

@@ -1,0 +1,448 @@
+{
+  "status": "floating_stage_reference_not_bit_accurate_not_acoustic_evidence",
+  "sample_rate_hz": 48000,
+  "samples": 2121,
+  "fft_size": 512,
+  "hop_size": 256,
+  "array_config": {
+    "schema_version": "0.2",
+    "config_id": "w3_staggered",
+    "status": "simulation_candidate_not_hardware_spec",
+    "source": "references/input/array_parameters_v1.pdf",
+    "sample_rate_hz": 48000,
+    "pdm_clock_hz": 3072000,
+    "decimation_factor": 64,
+    "microphone_count": 16,
+    "spacing_m": 0.03048,
+    "aperture_m": 0.46112020124908865,
+    "geometry": {
+      "kind": "explicit_coordinates",
+      "axis": "xyz",
+      "origin": "array_center",
+      "channel_order": "MIC0_to_MIC15_row_order",
+      "forward_axis": "+y",
+      "positive_angle_toward": "+x",
+      "angle_unit": "deg"
+    },
+    "reference_microphone_index": 7,
+    "sound_speed_m_per_s": 343.0,
+    "sound_speed_status": "simulation_assumption_measure_temperature_for_real_tests",
+    "spatial_processing_band_hz": [
+      500,
+      5000
+    ],
+    "initial_source_angles_deg": [
+      -45,
+      0,
+      50
+    ],
+    "initial_output_count": 3,
+    "stft_candidates": {
+      "fft_sizes": [
+        256,
+        512
+      ],
+      "hop_fraction": 0.5,
+      "analysis_window_candidate": "hann_periodic",
+      "synthesis_window": null,
+      "selected_fft_size": null
+    },
+    "hardware_pending": {
+      "microphone_model": null,
+      "fpga_part": null,
+      "vivado_version": null,
+      "fft_ip_configuration": null,
+      "cic_stages": null,
+      "cic_differential_delay": null,
+      "pcm_word_bits": null
+    },
+    "positions_m": [
+      [
+        -0.2286,
+        -0.03,
+        0.0
+      ],
+      [
+        -0.19812,
+        0.03,
+        0.0
+      ],
+      [
+        -0.16764,
+        -0.03,
+        0.0
+      ],
+      [
+        -0.13716,
+        0.03,
+        0.0
+      ],
+      [
+        -0.10668,
+        -0.03,
+        0.0
+      ],
+      [
+        -0.0762,
+        0.03,
+        0.0
+      ],
+      [
+        -0.04572,
+        -0.03,
+        0.0
+      ],
+      [
+        -0.01524,
+        0.0,
+        0.0
+      ],
+      [
+        0.01524,
+        0.0,
+        0.0
+      ],
+      [
+        0.04572,
+        0.03,
+        0.0
+      ],
+      [
+        0.0762,
+        -0.03,
+        0.0
+      ],
+      [
+        0.10668,
+        0.03,
+        0.0
+      ],
+      [
+        0.13716,
+        -0.03,
+        0.0
+      ],
+      [
+        0.16764,
+        0.03,
+        0.0
+      ],
+      [
+        0.19812,
+        -0.03,
+        0.0
+      ],
+      [
+        0.2286,
+        0.03,
+        0.0
+      ]
+    ],
+    "spacing_m_note": "legacy nominal spacing; actual geometry exclusively positions_m"
+  },
+  "das_angles_deg": [
+    -45.0,
+    0.0,
+    45.0
+  ],
+  "seed": null,
+  "input_scale": "signed 24-bit integer in low bits of int32; float = integer / 2**23",
+  "complex_layout": "little-endian float64 real,imag pairs; no conjugation in file",
+  "fft_scaling": "forward unscaled; inverse includes 1/N",
+  "comparison": "float64 stage check: atol=1e-12 rtol=1e-12; NOT a hardware tolerance",
+  "stream_vs_offline_max_abs": {
+    "identity_mic7": 4.163336342344337e-17,
+    "das_three": 4.163336342344337e-17
+  },
+  "files": {
+    "input_pcm_s24_in_s32.bin": {
+      "shape": [
+        2121,
+        16
+      ],
+      "axes": [
+        "sample",
+        "microphone"
+      ],
+      "dtype": "<i4",
+      "order": "C",
+      "bytes": 135744,
+      "sha256": "603ec81bf5e7c81fd4600627f3be4b5c024ea610dff1c2c48f2b542d08b2da0b"
+    },
+    "input_pcm.bin": {
+      "shape": [
+        2121,
+        16
+      ],
+      "axes": [
+        "sample",
+        "microphone"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 271488,
+      "sha256": "fe7fb544afecc9213dbc1eb984a04b93020ed2378ab39fc5bb6662561fd362be"
+    },
+    "frame_starts.bin": {
+      "shape": [
+        10
+      ],
+      "axes": [
+        "frame"
+      ],
+      "dtype": "<i8",
+      "order": "C",
+      "bytes": 80,
+      "sha256": "a4582825068a348b45b746683b1b9f6c55cdc8723aa7c1a871cc207aaf6a4919"
+    },
+    "window.bin": {
+      "shape": [
+        512
+      ],
+      "axes": [
+        "sample_in_frame"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 4096,
+      "sha256": "f1b761a121695d2560363855f23ae423d1c8c91d9e24c51fb1acd0d14c90183b"
+    },
+    "windowed.bin": {
+      "shape": [
+        10,
+        512,
+        16
+      ],
+      "axes": [
+        "frame",
+        "sample_in_frame",
+        "microphone"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 655360,
+      "sha256": "e73052c1cfff332b027f93b7b904c928e166ad5fc7a0b5bc110508f8c8087206"
+    },
+    "input_spectrum.bin": {
+      "shape": [
+        10,
+        257,
+        16
+      ],
+      "axes": [
+        "frame",
+        "frequency",
+        "microphone"
+      ],
+      "dtype": "<c16",
+      "order": "C",
+      "bytes": 657920,
+      "sha256": "0a85d09531ce6f141f283c9202ba4ade208a207bc09af13bb168ee73fa75462d"
+    },
+    "identity_mic7_weights.bin": {
+      "shape": [
+        257,
+        16,
+        1
+      ],
+      "axes": [
+        "frequency",
+        "microphone",
+        "output"
+      ],
+      "dtype": "<c16",
+      "order": "C",
+      "bytes": 65792,
+      "sha256": "664dcbc0082146c5116bb55106b5d971c46ae89f97f4e6c5833aa69a5e6e6224"
+    },
+    "identity_mic7_spectrum.bin": {
+      "shape": [
+        10,
+        257,
+        1
+      ],
+      "axes": [
+        "frame",
+        "frequency",
+        "output"
+      ],
+      "dtype": "<c16",
+      "order": "C",
+      "bytes": 41120,
+      "sha256": "e806686001f04f2f162c661ed39f5fbecb2ad6f3498ef294f0c9324488a1e4f7"
+    },
+    "identity_mic7_inverse.bin": {
+      "shape": [
+        10,
+        512,
+        1
+      ],
+      "axes": [
+        "frame",
+        "sample_in_frame",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 40960,
+      "sha256": "3335a33692f509c42faf77468f6609407d748337207c5c6397cdcd56c4eac8bf"
+    },
+    "identity_mic7_synthesis.bin": {
+      "shape": [
+        10,
+        512,
+        1
+      ],
+      "axes": [
+        "frame",
+        "sample_in_frame",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 40960,
+      "sha256": "bcc55cd9d075813017581f9cde71098d9d0103aaa34795186b75fb83fada6fc2"
+    },
+    "identity_mic7_output.bin": {
+      "shape": [
+        2121,
+        1
+      ],
+      "axes": [
+        "sample",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 16968,
+      "sha256": "72fbb9b146b45e8a3b20779806cc0b9c811ba12467de2b49a3ec55f46b48e7e7"
+    },
+    "identity_mic7_chunk_lengths.bin": {
+      "shape": [
+        10
+      ],
+      "axes": [
+        "frame"
+      ],
+      "dtype": "<i4",
+      "order": "C",
+      "bytes": 40,
+      "sha256": "86f122702056eb937036bb40e1f72c317d1be9aa48dced3a8a9eb0533348250c"
+    },
+    "das_three_weights.bin": {
+      "shape": [
+        257,
+        16,
+        3
+      ],
+      "axes": [
+        "frequency",
+        "microphone",
+        "output"
+      ],
+      "dtype": "<c16",
+      "order": "C",
+      "bytes": 197376,
+      "sha256": "5b2a4d3b065d8cfea4d0604a65b6ce58c3c0620e9409512555f5091a984e5348"
+    },
+    "das_three_spectrum.bin": {
+      "shape": [
+        10,
+        257,
+        3
+      ],
+      "axes": [
+        "frame",
+        "frequency",
+        "output"
+      ],
+      "dtype": "<c16",
+      "order": "C",
+      "bytes": 123360,
+      "sha256": "5782d9f8dc76131562d8bbcd38bcbfca27314be911991c3a386c2963117d869a"
+    },
+    "das_three_inverse.bin": {
+      "shape": [
+        10,
+        512,
+        3
+      ],
+      "axes": [
+        "frame",
+        "sample_in_frame",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 122880,
+      "sha256": "4a4460bca81f8116fad8191c82a64c0622884d6287e7b9563e6cc5bf650518d4"
+    },
+    "das_three_synthesis.bin": {
+      "shape": [
+        10,
+        512,
+        3
+      ],
+      "axes": [
+        "frame",
+        "sample_in_frame",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 122880,
+      "sha256": "876a644a971b1884b71968d8d29a16c2cdc60a36f53466f1e235147fd33a165a"
+    },
+    "das_three_output.bin": {
+      "shape": [
+        2121,
+        3
+      ],
+      "axes": [
+        "sample",
+        "output"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 50904,
+      "sha256": "cf0739625bbe15b9ced13369dad6f5c1af2c32dcae9e5ec77df86a9f1b86c23a"
+    },
+    "das_three_chunk_lengths.bin": {
+      "shape": [
+        10
+      ],
+      "axes": [
+        "frame"
+      ],
+      "dtype": "<i4",
+      "order": "C",
+      "bytes": 40,
+      "sha256": "86f122702056eb937036bb40e1f72c317d1be9aa48dced3a8a9eb0533348250c"
+    },
+    "ola_denominator.bin": {
+      "shape": [
+        2121
+      ],
+      "axes": [
+        "sample"
+      ],
+      "dtype": "<f8",
+      "order": "C",
+      "bytes": 16968,
+      "sha256": "e04bd1f4c75580ec8f204447381358d415051fbc71e69d1501986dfd7bb0381f"
+    }
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1"
+  },
+  "source_sha256": {
+    "tools\\export_handoff_vectors.py": "383e86f71efe005b2c5fd36ad4a70e63c365709e87a8a5e926660b96ef2fc95a",
+    "configs\\array\\w3_staggered.json": "15584f4a5e66f862cc502eb8e18799ea139e885037ede9921f804aa72e543d73",
+    "src\\acoustic_array\\dsp\\stft.py": "aab0cc906c1a62fa575c061c40bacaba5e68b1970f2c75f8e1d34af68180e2ca",
+    "src\\acoustic_array\\beamforming\\das.py": "41b397ac6fe0b369ad18de6a8bb077846f37cab215200272d2586ad07d726cc9",
+    "src\\acoustic_array\\core\\config.py": "cbda186b930bb0c240196a222301aa6ff314c1c4c8d95ab91976defb323528fa",
+    "src\\acoustic_array\\core\\geometry.py": "19eb275431ea7d0f9c056d97cd7cf01787344ec912d2c16a4ebabcf223fa6be9"
+  }
+}

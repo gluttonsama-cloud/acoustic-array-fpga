@@ -1,0 +1,19 @@
+{
+  "schema_version": "0.1",
+  "array_config": "../array/ula16_v1.json",
+  "speech_manifest": "../../data/manifests/libri_examples.json",
+  "duration_s": 10,
+  "distances_m": [2, 3],
+  "adjacent_angles_deg": [15, 30, 45],
+  "rt60_targets_s": [0, 0.2, 0.4],
+  "room": {"dimensions_m": [6, 5, 3], "array_center_m": [3, 1.5, 1.5], "rir_duration_s": 0.65},
+  "fft_sizes": [512, 1024],
+  "seed": 20260922,
+  "active_rms": 0.04,
+  "noise_snr_db": 20,
+  "trim_samples": 31200,
+  "block_size": 777,
+  "constraint_band_hz": [100, 5000],
+  "min_wng_db": -10,
+  "max_condition": 10000
+}

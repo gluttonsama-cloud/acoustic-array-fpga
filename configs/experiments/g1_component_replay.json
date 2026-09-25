@@ -1,0 +1,7 @@
+{
+ "schema_version": "0.1",
+ "mpdr_run": "../../artifacts/runs/g1_mpdr_20260923T054058_952802Z",
+ "room_run": "../../artifacts/runs/g1_room_20260923T042446_546511Z",
+ "cases": ["r2_gap15_rt0", "r2_gap15_rt0.4", "r2_gap30_rt0.4", "r3_gap15_rt0.4", "r3_gap30_rt0.4", "r3_gap45_rt0.4"],
+ "methods": ["das", "fixed_constraint", "mpdr_load0.1"]
+}

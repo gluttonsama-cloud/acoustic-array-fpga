@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "frozen_before_acquisition": "2026-09-22",
+  "dataset_id": "openslr12-librispeech",
+  "license": "CC-BY-4.0",
+  "source_page": "https://www.openslr.org/12/",
+  "archive_url": "https://openslr.magicdatatech.com/resources/12/test-clean.tar.gz",
+  "archive_md5": "32fa31d27d2e1cad72775fee3f4849a9",
+  "archive_sha256": "39fde525e59672dc6d1551919b1478f724438a95aa55f874b576be21967e6c23",
+  "sha256_pin_origin": "Pinned after first acquisition and official MD5 verification on 2026-09-22; selection rules unchanged. Original pre-acquisition policy preserved in s1_corpus_selection_initial.json.",
+  "max_archive_bytes": 360000000,
+  "max_selected_bytes": 100000000,
+  "excluded_speakers": ["198", "3436", "5703"],
+  "selection": "Sort speakers numerically; take first 30 with at least three mono 16 kHz FLAC utterances of at least 10 seconds. Sort eligible utterance identifiers numerically and take first three per speaker. Do not inspect algorithm scores.",
+  "scenes": "Partition selected speakers into ten consecutive triples. For each triple, create three scenes using distinct utterances, rotating speaker-to-angle assignment by scene index. Each recording is used once; each speaker occurs in three scenes within one cluster.",
+  "duration_seconds": 10,
+  "crop_start_seconds": 0,
+  "angles_degrees": [-45, 0, 50],
+  "statistical_unit": "10 disjoint speaker clusters, containing 30 correlated content scenes; not 30 independent speaker scenes",
+  "usage": "Unscored holdout candidate. Freeze algorithm configuration and clustered statistical protocol before evaluating; no B1 acceptance claim."
+}

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acoustic-array-fpga"
+version = "0.3.10"
+description = "Reproducible microphone array references and FPGA handoff"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26.4,<3", "scipy>=1.12,<2", "soundfile>=0.13.1,<1"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.15,<1"]
+room = ["rir-generator==0.3.0"]
+doa = ["pyroomacoustics==0.10.1"]
+
+[project.scripts]
+acoustic-array = "acoustic_array.pipelines.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["acoustic_array*"]
+namespaces = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

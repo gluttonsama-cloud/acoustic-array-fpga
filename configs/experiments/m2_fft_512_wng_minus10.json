@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "M2-fft-512-wng--10",
+  "array_config": "../array/ula16_v1.json",
+  "speech_manifest": "../../data/manifests/libri_examples.json",
+  "seed": 20260919,
+  "duration_s": 10.0,
+  "source_angles_deg": [
+    -45,
+    0,
+    50
+  ],
+  "source_whole_clip_rms": 0.04,
+  "noise_rms": 0.002,
+  "fft_sizes": [
+    512
+  ],
+  "block_size": 733,
+  "direction_offsets_deg": [
+    -5,
+    0,
+    5
+  ],
+  "constraint_band_hz": [
+    100,
+    5000
+  ],
+  "max_condition": 10000.0,
+  "min_white_noise_gain_db": -10,
+  "evaluation_trim_s": 0.05,
+  "evaluation_band_hz": [
+    500,
+    5000
+  ],
+  "wav_shared_gain": 0.5
+}

@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "room": "artifacts\\runs\\g1_room_20260923T160031_617601Z",
+    "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160242_868507Z"
+  },
+  "wide_outer": {
+    "room": "artifacts\\runs\\g1_room_20260923T160252_014910Z",
+    "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160458_797004Z"
+  },
+  "staggered": {
+    "room": "artifacts\\runs\\g1_room_20260923T160507_757281Z",
+    "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160713_349584Z"
+  }
+}

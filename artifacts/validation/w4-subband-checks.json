@@ -1,0 +1,63 @@
+{
+  "run": "artifacts/runs/w4_subband_20260924T141529_200363Z",
+  "manifest_sha256": "107ea652e2e9e4173fa6af38c4cb0aa4419e387a862a9802d04178d63ab0b498",
+  "output_hashes_verified": 56,
+  "decision": {
+    "matched": 4,
+    "false_peaks": 0,
+    "no_case_match_regression": false,
+    "pass_for_audio_integration": false
+  },
+  "same_frame_control": {
+    "frames": 560,
+    "matched": 7,
+    "false_peaks": 4,
+    "same_counts_as_561_frame_baseline": true
+  },
+  "posthoc_read_only_diagnostic": {
+    "slot_count_per_case": 336,
+    "r2_gap15_rt0.4": {
+      "accepted_slots": 55,
+      "truth_support_left_center_right": [0.0, 0.06349206349206349, 0.0009920634920634922]
+    },
+    "r2_gap45_rt0.4": {
+      "accepted_slots": 27,
+      "truth_support_left_center_right": [0.0, 0.064484126984127, 0.005952380952380952]
+    },
+    "r3_gap15_rt0.4": {
+      "accepted_slots": 43,
+      "truth_support_left_center_right": [0.0019841269841269845, 0.06349206349206347, 0.0]
+    },
+    "r3_gap45_rt0.4": {
+      "accepted_slots": 23,
+      "truth_support_left_center_right": [0.0, 0.05257936507936508, 0.0]
+    }
+  },
+  "tests": {
+    "tdd_red_missing_module": true,
+    "review_regression_red_then_green": true,
+    "new_subband_tests": 27,
+    "full_suite_passed": 320,
+    "ruff_check": "passed",
+    "ruff_format_files": 99
+  },
+  "review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "role": "python-reviewer",
+    "initial_status": "blocked_high_physical_energy_ratio_bug",
+    "final_status": "approved_after_common_block_scale_fix",
+    "open_high_findings": 0
+  },
+  "documentation_check": {
+    "links": 350,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "current_increment_sha256": {
+    "src/acoustic_array/localization/subband.py": "aefefcf4f48ca1d7762b9f0c81fa65bccb778cd96130f9ed3a7f44132a18b596",
+    "tests/test_subband_localization.py": "a2952fdae84c9ac31ff067f6df52ac6904d0cddc6fe8687f1d7a71774346e2c8",
+    "tools/w4_static_demo.py": "a65762d89815d6bf77a972e09a986f63f29941bf0c201fa4eb4a018968161c0c",
+    "configs/experiments/w4_subband.json": "59e29a335b44cb351484806b2dae9ffb97a791ec001acdac2cf38338e5f70e64"
+  }
+}

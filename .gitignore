@@ -1,0 +1,46 @@
+# Python / editors / local environment
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+# Reproducible outputs are indexed, not committed wholesale
+data/raw/**
+!data/raw/README.md
+data/generated/**
+!data/generated/README.md
+data/external/**
+!data/external/README.md
+artifacts/runs/**
+!artifacts/runs/README.md
+artifacts/golden_vectors/**
+!artifacts/golden_vectors/README.md
+artifacts/calibration/**
+!artifacts/calibration/README.md
+# Internal source attachments and disposable validation outputs are local-only.
+references/input/**
+!references/input/README.md
+artifacts/validation/*-source-snapshot/**
+artifacts/validation/recording-smoke-20260925/**
+artifacts/validation/*.xml
+# Tool outputs
+.Xil/
+*.jou
+*.log
+*.wdb
+*.bit
+*.dcp
+*.str
+*.tmp
+*.whl

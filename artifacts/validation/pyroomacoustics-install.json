@@ -1,0 +1,14 @@
+{
+  "package": "pyroomacoustics",
+  "version": "0.10.1",
+  "environment": "Windows x64; CPython 3.12.10",
+  "wheel": "artifacts/downloads/pyroomacoustics-0.10.1-cp312-cp312-win_amd64.whl",
+  "wheel_url": "https://files.pythonhosted.org/packages/d9/34/19706fee63d5171d8edfc0b6f85cd17b651cd89822abc80cda8b47dc50ba/pyroomacoustics-0.10.1-cp312-cp312-win_amd64.whl",
+  "wheel_sha256": "421fa320b6ad31465dc59e137a7b0e1033687cb821febcc8cb4d76f67a4c7b57",
+  "license": "MIT",
+  "transitive_build_dependency": "Cython==3.3.0",
+  "project_numpy": "1.26.4",
+  "project_scipy": "1.17.1",
+  "pip_check": "passed",
+  "scope": "optional PC-only MUSIC/NormMUSIC reference; not FPGA deployment"
+}

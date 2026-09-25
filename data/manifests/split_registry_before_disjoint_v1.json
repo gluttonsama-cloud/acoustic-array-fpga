@@ -1,0 +1,668 @@
+{
+  "schema_version": "0.1",
+  "records": [
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5703",
+      "split": "development",
+      "sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+      "path": "../raw/libri_examples/5703-47212-0000.ogg"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3436",
+      "split": "development",
+      "sha256": "780e482b52f2c8a500356babf60178ce005449cc171a8537eb3ef2961eb3e855",
+      "path": "../raw/libri_examples/3436-172162-0000.ogg"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "198",
+      "split": "development",
+      "sha256": "0473ba9613befa1026db5e254546f105aeffba8366b5468fc5e8d474d844ca1d",
+      "path": "../raw/libri_examples/198-209-0000.ogg"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "121",
+      "split": "heldout",
+      "sha256": "58d6350b52675d6d19616bc0347afc52a1535f8ea8be82aabb7275e6919a2598",
+      "path": "../raw/s1_candidate_verified_v1/121-123852-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "121",
+      "split": "heldout",
+      "sha256": "8362ab5864c7a40ffcd8c594f59efea0ff48f51abdfa9d827548b6522d7abdba",
+      "path": "../raw/s1_candidate_verified_v1/121-123852-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "121",
+      "split": "heldout",
+      "sha256": "5a10c9d928483a6850edfdac439751bae191b7af126165627d330bc83bc6083e",
+      "path": "../raw/s1_candidate_verified_v1/121-123852-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "237",
+      "split": "heldout",
+      "sha256": "25466538df82602d1e597b0cb016e4dd0ce11031cb8994a4289d1c07170878ee",
+      "path": "../raw/s1_candidate_verified_v1/237-126133-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "237",
+      "split": "heldout",
+      "sha256": "dfde7ea9d4eb3121b32043dffe260b257aaaad3ba163a815491d5b6dad01e5d0",
+      "path": "../raw/s1_candidate_verified_v1/237-126133-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "237",
+      "split": "heldout",
+      "sha256": "6392d5b316fa0fa59ebdb4c17d4c3292fb1dd68529e98ccdb3de2054a8c0b7c2",
+      "path": "../raw/s1_candidate_verified_v1/237-134493-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "260",
+      "split": "heldout",
+      "sha256": "271e626e78815d8062c8df36730cea52fc2cf183274b8e7dc7f5a103704b6c07",
+      "path": "../raw/s1_candidate_verified_v1/260-123286-0019.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "260",
+      "split": "heldout",
+      "sha256": "bc7b76112e044fe70a30e61590aba6b87e8c694ce40c533e8c14ba88bdac2d38",
+      "path": "../raw/s1_candidate_verified_v1/260-123288-0005.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "260",
+      "split": "heldout",
+      "sha256": "f318f0eb1f327535840c5d2765fe961fbb41832726a792458f766dbd38422fd8",
+      "path": "../raw/s1_candidate_verified_v1/260-123288-0007.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "672",
+      "split": "heldout",
+      "sha256": "db2e7f1a0b8bf6130c2b8cd104cc6b9dee0d0ffd3ab5eb68fad072a3e442b956",
+      "path": "../raw/s1_candidate_verified_v1/672-122797-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "672",
+      "split": "heldout",
+      "sha256": "d73ab91c2692f9ad1ef35b209122024b10741b7928930fb560553275be88cf0a",
+      "path": "../raw/s1_candidate_verified_v1/672-122797-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "672",
+      "split": "heldout",
+      "sha256": "8dcbb709d46e0630605e5d886e8510b8fab159da5de229f05536d1f8b0fd9a9e",
+      "path": "../raw/s1_candidate_verified_v1/672-122797-0004.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "908",
+      "split": "heldout",
+      "sha256": "2782509f3e0125cdc87858930b23fac16cc438cadf87ea107605c97f31f334f0",
+      "path": "../raw/s1_candidate_verified_v1/908-31957-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "908",
+      "split": "heldout",
+      "sha256": "a398f676c88e00d035914e5f4b49e68e3239e67ab0c91586d9dd62c9547936a9",
+      "path": "../raw/s1_candidate_verified_v1/908-31957-0004.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "908",
+      "split": "heldout",
+      "sha256": "b79e7a3e2b0a3772298f53ec35684db9f0deca7a434a973b938dee936fbdffba",
+      "path": "../raw/s1_candidate_verified_v1/908-31957-0008.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1089",
+      "split": "heldout",
+      "sha256": "30885601173f96b0d8ddd020dc959b055c6c1582b85a33e3fcab8c4b08ed94c2",
+      "path": "../raw/s1_candidate_verified_v1/1089-134686-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1089",
+      "split": "heldout",
+      "sha256": "cd6c37cf12d5a9394fe1e997c2a068aa598a431a489d40279e2bbddbfc2436f5",
+      "path": "../raw/s1_candidate_verified_v1/1089-134686-0006.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1089",
+      "split": "heldout",
+      "sha256": "a2808efab49a93b7194d07e868b0cd04586379c2f44a08b8c6f969d92accf922",
+      "path": "../raw/s1_candidate_verified_v1/1089-134686-0009.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1188",
+      "split": "heldout",
+      "sha256": "4a10149395cb5af8aa5d04ef3adb49b3980baa93114d0851046e6343744b26cb",
+      "path": "../raw/s1_candidate_verified_v1/1188-133604-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1188",
+      "split": "heldout",
+      "sha256": "e32c0f449f89c8e9e6d742482910660e3a63cd7fe3d511c641eefde6cf13f459",
+      "path": "../raw/s1_candidate_verified_v1/1188-133604-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1188",
+      "split": "heldout",
+      "sha256": "a013400c991a40062cb4f458d247cfd6dac24fa0016bf6e2eac7a3e8e08b8ae8",
+      "path": "../raw/s1_candidate_verified_v1/1188-133604-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1221",
+      "split": "heldout",
+      "sha256": "1f6b9ba126dc0f0a3cb813b04e2c970ff9583beeaf8cfaa8f7c8199244aa2514",
+      "path": "../raw/s1_candidate_verified_v1/1221-135766-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1221",
+      "split": "heldout",
+      "sha256": "178cd97b0bbaa2f8919fd2a8a7c17e9d3891ec88199e54dbb0f01bd6274207a0",
+      "path": "../raw/s1_candidate_verified_v1/1221-135766-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1221",
+      "split": "heldout",
+      "sha256": "9f44ad009d249aac43da84960e5482148b6ad56f9e566ff9531d26436b6f87d4",
+      "path": "../raw/s1_candidate_verified_v1/1221-135766-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1284",
+      "split": "heldout",
+      "sha256": "eb61532402137b2abbea52d424f46ee114b96e568717aeb5c3a4a9c58aef8bd3",
+      "path": "../raw/s1_candidate_verified_v1/1284-1180-0008.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1284",
+      "split": "heldout",
+      "sha256": "d070391d274a6b0deebcbb30b3e4a668e9466973ed73f12077062c3d51ffc80e",
+      "path": "../raw/s1_candidate_verified_v1/1284-1180-0017.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1284",
+      "split": "heldout",
+      "sha256": "59f74bee5d32c262d3dd703d50b3edac94c86de550ebd664bc8c5b9764c802f9",
+      "path": "../raw/s1_candidate_verified_v1/1284-1180-0018.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1320",
+      "split": "heldout",
+      "sha256": "2f914687b13e1864d267282c3749ab6f0b6a5b7dcb2b772f28b6a3af7854859e",
+      "path": "../raw/s1_candidate_verified_v1/1320-122612-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1320",
+      "split": "heldout",
+      "sha256": "1b539305baddaa562ddd1ab30a9b4a2f679fb43bc9cb839fde7e71222d0299bf",
+      "path": "../raw/s1_candidate_verified_v1/1320-122612-0010.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1320",
+      "split": "heldout",
+      "sha256": "ef01e7deaf25dc8be3668f3268da5fe1201271b707823b5d9b5ca661c7403411",
+      "path": "../raw/s1_candidate_verified_v1/1320-122612-0011.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1580",
+      "split": "heldout",
+      "sha256": "9914a442f04e4fed4a8144ec63326ec3b5f031ccd73203b1a9c309182a172ba7",
+      "path": "../raw/s1_candidate_verified_v1/1580-141083-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1580",
+      "split": "heldout",
+      "sha256": "ff2026014f1a8388d90c757b4b1ac0db84fa634dd92c94ab9139581527ea5e45",
+      "path": "../raw/s1_candidate_verified_v1/1580-141083-0006.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1580",
+      "split": "heldout",
+      "sha256": "8a7bc188abde153653a7c2545d945148f5a8e445d97e83e0c1fdeb79273dd452",
+      "path": "../raw/s1_candidate_verified_v1/1580-141083-0029.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1995",
+      "split": "heldout",
+      "sha256": "56d8ebeb4138c7cc33c7f468aec078a3d76694b8759b1e860d876288f475e8ee",
+      "path": "../raw/s1_candidate_verified_v1/1995-1826-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1995",
+      "split": "heldout",
+      "sha256": "85ccf2e5b479f62e4eb45025bfea0ec1bf0d9e530dee86b39ee47e1f584b75dd",
+      "path": "../raw/s1_candidate_verified_v1/1995-1826-0021.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "1995",
+      "split": "heldout",
+      "sha256": "25ce675fbc0acecedb3418b61363b47a81665c4199eec5a2c1ed16370f65f78e",
+      "path": "../raw/s1_candidate_verified_v1/1995-1826-0026.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2094",
+      "split": "heldout",
+      "sha256": "557af1a29773cd4d78e62aa9e1ad55e2e46db5cde88b7a84c4692427df765279",
+      "path": "../raw/s1_candidate_verified_v1/2094-142345-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2094",
+      "split": "heldout",
+      "sha256": "a7ff94ece16d3749083929af8e815efbb341c8f1b99927a13e1a559c50ab5660",
+      "path": "../raw/s1_candidate_verified_v1/2094-142345-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2094",
+      "split": "heldout",
+      "sha256": "6380396cf25f4741a308cf998967d99ca75aff4951ead3de14b41aad419a30fc",
+      "path": "../raw/s1_candidate_verified_v1/2094-142345-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2300",
+      "split": "heldout",
+      "sha256": "421a5788b45cc79e2c7eb4cc91ad5ca98a0644a0dab2978436a20fc4cd1853ce",
+      "path": "../raw/s1_candidate_verified_v1/2300-131720-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2300",
+      "split": "heldout",
+      "sha256": "2b3dfdfd676c5e0132d83191ced000b5f2e73bb1f9e37bf5a785f922161f67bf",
+      "path": "../raw/s1_candidate_verified_v1/2300-131720-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2300",
+      "split": "heldout",
+      "sha256": "af78fe541e9f7b6f7f7fbdf0ef56a11c1ea10b7801b391b41a3b627f88402409",
+      "path": "../raw/s1_candidate_verified_v1/2300-131720-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2830",
+      "split": "heldout",
+      "sha256": "46bd81f7e35e2ae044f73e02e977c76dacf907999ae8a1085521a468f4cd9df9",
+      "path": "../raw/s1_candidate_verified_v1/2830-3979-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2830",
+      "split": "heldout",
+      "sha256": "af8ea2de095dde54cde454877b332b092ee99d901c3678c301ecad2de5f0dad9",
+      "path": "../raw/s1_candidate_verified_v1/2830-3979-0007.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2830",
+      "split": "heldout",
+      "sha256": "f7db02573a2915db856f63e1dbadd002539cfcedb96c2df6416b9ae6ab69bf36",
+      "path": "../raw/s1_candidate_verified_v1/2830-3980-0007.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2961",
+      "split": "heldout",
+      "sha256": "370a3a9f5cda245004db3e6178a7a9a50919687fb24dea05e661a0ad2e7c1c5d",
+      "path": "../raw/s1_candidate_verified_v1/2961-960-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2961",
+      "split": "heldout",
+      "sha256": "753bea25c30c610c8715e13e9528363fba527c81bbea8997d1c4fa89a3fe3082",
+      "path": "../raw/s1_candidate_verified_v1/2961-960-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "2961",
+      "split": "heldout",
+      "sha256": "1c7709259d871c7a36fe1f994f6f1bce0a3424c6f009002eb3defcd3f1a97040",
+      "path": "../raw/s1_candidate_verified_v1/2961-960-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3570",
+      "split": "heldout",
+      "sha256": "55049eed3f6a821b44b5b8d0e2a7348fc01692fc79981ec56b140ac0f051579e",
+      "path": "../raw/s1_candidate_verified_v1/3570-5694-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3570",
+      "split": "heldout",
+      "sha256": "a21a557d5db7d6bea193ba2e49efaa488f9a4c468f898b4e24c722544bbc6844",
+      "path": "../raw/s1_candidate_verified_v1/3570-5694-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3570",
+      "split": "heldout",
+      "sha256": "c868f313fa94c067f61064692dbecfbcc909a55c325f702314fe62ea40cb3857",
+      "path": "../raw/s1_candidate_verified_v1/3570-5694-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3575",
+      "split": "heldout",
+      "sha256": "8eea675c07ba216742d7fd9c335af9f244a240eb3bfa2c72e7ee6f07e4675a07",
+      "path": "../raw/s1_candidate_verified_v1/3575-170457-0008.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3575",
+      "split": "heldout",
+      "sha256": "7cbd04d0f5a13a9a68d8100339d8f6750ef8ec5513c117bf0868fe6d76e34475",
+      "path": "../raw/s1_candidate_verified_v1/3575-170457-0015.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3575",
+      "split": "heldout",
+      "sha256": "5a8eff3cd9820281d3a77fb322ed2af9438c52c80c3bac10b47360a84eca1127",
+      "path": "../raw/s1_candidate_verified_v1/3575-170457-0017.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3729",
+      "split": "heldout",
+      "sha256": "3fa96f8e0276d79ec027bb1595215a8bbeb488cefcc1702ff798e91ec8504403",
+      "path": "../raw/s1_candidate_verified_v1/3729-6852-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3729",
+      "split": "heldout",
+      "sha256": "d62cde117a1e577e7fced2186f6a031e8341b1677efdd037f2891c8a38946023",
+      "path": "../raw/s1_candidate_verified_v1/3729-6852-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "3729",
+      "split": "heldout",
+      "sha256": "a51be675a4e9c7b6164dd7e7f4960860149d1cc8f33dc1fa4e0473848772f30d",
+      "path": "../raw/s1_candidate_verified_v1/3729-6852-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4077",
+      "split": "heldout",
+      "sha256": "626c4cac3e1471d920ab07e40d3a27aa1e08743592bb5e6d412df903534004b9",
+      "path": "../raw/s1_candidate_verified_v1/4077-13751-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4077",
+      "split": "heldout",
+      "sha256": "24198e20b0b3ca364b27ecce2e1719b5656b6604e1d56c8aff958178ac11ca20",
+      "path": "../raw/s1_candidate_verified_v1/4077-13751-0004.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4077",
+      "split": "heldout",
+      "sha256": "075530d2e6997005be783073f61914785492b5fd5a5aef67211e65d77890333d",
+      "path": "../raw/s1_candidate_verified_v1/4077-13751-0005.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4446",
+      "split": "heldout",
+      "sha256": "1aba42a9dabce81eaad32bc6625668d8b3a2a3ba374f36a835a61500848ed7b5",
+      "path": "../raw/s1_candidate_verified_v1/4446-2271-0004.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4446",
+      "split": "heldout",
+      "sha256": "bc0982bdb782890f2c907b29903302f7130299813bbd467d09ffaa0824ca29c3",
+      "path": "../raw/s1_candidate_verified_v1/4446-2271-0016.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4446",
+      "split": "heldout",
+      "sha256": "52c2bcc0148257ea7cd3addd8ddc555b46597324ba4b8bae44d1940107ae26a0",
+      "path": "../raw/s1_candidate_verified_v1/4446-2271-0017.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4507",
+      "split": "heldout",
+      "sha256": "3fec8e81e775deb6b2cc2bbbb24463289953d7c249157437f6bf3c043f1840c9",
+      "path": "../raw/s1_candidate_verified_v1/4507-16021-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4507",
+      "split": "heldout",
+      "sha256": "ecd9ee63db5169d40fb45ad8aa5f084ad0f9594860d46ac13b7801086e4d926e",
+      "path": "../raw/s1_candidate_verified_v1/4507-16021-0009.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4507",
+      "split": "heldout",
+      "sha256": "93e5eed3d3287bae2493f71b7c891cd4b3c2e40b35e48bd564aa855e4e572a04",
+      "path": "../raw/s1_candidate_verified_v1/4507-16021-0010.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4970",
+      "split": "heldout",
+      "sha256": "701b3334cfbacfb695b56f66d970f84896f81587199d7f0c0d3ad688bd925aa7",
+      "path": "../raw/s1_candidate_verified_v1/4970-29093-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4970",
+      "split": "heldout",
+      "sha256": "2a0734635c00bf4bdc1b6d415f9149732593c863508db4c3eb7bda4062c8fb0c",
+      "path": "../raw/s1_candidate_verified_v1/4970-29093-0002.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4970",
+      "split": "heldout",
+      "sha256": "10bed0c0e2a16daf2eee8ddaa18482d98277259c4a1b65c3a34e29231aa25419",
+      "path": "../raw/s1_candidate_verified_v1/4970-29093-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4992",
+      "split": "heldout",
+      "sha256": "048a44c9d4a749aeb94236f716501edf782ae97e5190fb2cc0301df4dd5f52cd",
+      "path": "../raw/s1_candidate_verified_v1/4992-23283-0005.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4992",
+      "split": "heldout",
+      "sha256": "3061ef64993dc3f8dff91da57b4c33ba7053b1f56fefbad466ceb0109643faa8",
+      "path": "../raw/s1_candidate_verified_v1/4992-23283-0012.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "4992",
+      "split": "heldout",
+      "sha256": "890873e7ad14e00ad4d6fbf79e85721d94b67e4aa9b877028156919531b5d6a5",
+      "path": "../raw/s1_candidate_verified_v1/4992-23283-0017.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5105",
+      "split": "heldout",
+      "sha256": "2502ae6d45c20aee5c53fe0105c1b165a12cf3b604d0480bc932db0e6fd7c3e7",
+      "path": "../raw/s1_candidate_verified_v1/5105-28233-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5105",
+      "split": "heldout",
+      "sha256": "84e9fa1c16d810fc4270e87bfaae86eb8fa4b4013307be94d15916ed468b7400",
+      "path": "../raw/s1_candidate_verified_v1/5105-28233-0005.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5105",
+      "split": "heldout",
+      "sha256": "b82e1d0f51361253dd68dc8e129a3242b8dd11d081031a14c3bee70c2c683d17",
+      "path": "../raw/s1_candidate_verified_v1/5105-28233-0007.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5142",
+      "split": "heldout",
+      "sha256": "1ae0c5b14c44d7ec1a7a289c55e650ee101e6416f5799cf922fc36b215ef46f0",
+      "path": "../raw/s1_candidate_verified_v1/5142-36377-0008.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5142",
+      "split": "heldout",
+      "sha256": "13930fd437234fb39cbb2bc1b6eba473b28a6f7ef0367f4da99b239172acb5af",
+      "path": "../raw/s1_candidate_verified_v1/5142-36377-0014.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5142",
+      "split": "heldout",
+      "sha256": "f8008b0fbc3cd8e272b29d9f46b7a3505dc908e5f0949a67bfa965598800976b",
+      "path": "../raw/s1_candidate_verified_v1/5142-36377-0021.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5639",
+      "split": "heldout",
+      "sha256": "5f25c4ad283ffb96549c83498dd4255ec20fd1470c7e4041d5c5b3ac86e62606",
+      "path": "../raw/s1_candidate_verified_v1/5639-40744-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5639",
+      "split": "heldout",
+      "sha256": "1ebdee7e694543ec03aaee954ce90a7b27911c24423b1a67f872cd82a426f59d",
+      "path": "../raw/s1_candidate_verified_v1/5639-40744-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5639",
+      "split": "heldout",
+      "sha256": "feae1e38623c1082c34fa8624430121706fc82defea7e6a396880db7c31d50c7",
+      "path": "../raw/s1_candidate_verified_v1/5639-40744-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5683",
+      "split": "heldout",
+      "sha256": "b14159f85ca58093e6b8e7d5ba10b0c461187cac3bc179e91507f326d2e0e78d",
+      "path": "../raw/s1_candidate_verified_v1/5683-32865-0005.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5683",
+      "split": "heldout",
+      "sha256": "1e8d43770160d9163c85de91c98a7aca5a245233b7a69b95bf89d2455b1343eb",
+      "path": "../raw/s1_candidate_verified_v1/5683-32865-0012.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "5683",
+      "split": "heldout",
+      "sha256": "b0c35978be16424d4187ff4bfe0531d5cf128c79a32bcc98ecd690242e5da09f",
+      "path": "../raw/s1_candidate_verified_v1/5683-32866-0009.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6829",
+      "split": "heldout",
+      "sha256": "2f5d7ee4899ac1ba7bd170757a30b3679aad182830b0900d27967761e6f60826",
+      "path": "../raw/s1_candidate_verified_v1/6829-68769-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6829",
+      "split": "heldout",
+      "sha256": "d6698654fba12e6dccd51aed13cc3848970118cdef794fb1f2ac26ceb6a20481",
+      "path": "../raw/s1_candidate_verified_v1/6829-68771-0000.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6829",
+      "split": "heldout",
+      "sha256": "0512e048ed098577b238db77c0f8c92a64034cf7d1f67c421b20cff28b79b098",
+      "path": "../raw/s1_candidate_verified_v1/6829-68771-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6930",
+      "split": "heldout",
+      "sha256": "3dfad7eb0793eddd5040d04f1f2f3046ceeee39e0ec461794856a350e1bd728e",
+      "path": "../raw/s1_candidate_verified_v1/6930-75918-0001.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6930",
+      "split": "heldout",
+      "sha256": "0ec415739efc00adcbe70838f6c207ee4ae8b31639bad534138c3d26d890f58b",
+      "path": "../raw/s1_candidate_verified_v1/6930-75918-0003.flac"
+    },
+    {
+      "dataset_id": "openslr12-librispeech",
+      "speaker_id": "6930",
+      "split": "heldout",
+      "sha256": "e1c4755c2febfc6b77fde418821c57e2e980d84d4c79a73ff60c6e6dfc794eac",
+      "path": "../raw/s1_candidate_verified_v1/6930-75918-0004.flac"
+    }
+  ],
+  "validation": {
+    "status": "split_overlap_check_passed",
+    "record_counts": {
+      "development": 3,
+      "tuning": 0,
+      "heldout": 90
+    },
+    "unique_speakers": 33,
+    "unique_files": 93,
+    "has_heldout": true
+  },
+  "status": "heldout_candidate_unscored_not_formal_acceptance"
+}

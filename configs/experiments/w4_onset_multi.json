@@ -1,0 +1,47 @@
+{
+  "parent_run": "../../artifacts/runs/g1_room_20260923T171109_297143Z",
+  "baseline_run": "../../artifacts/runs/w4_boundary_20260924T150817_390183Z",
+  "cases": [
+    "r2_gap15_rt0.4",
+    "r2_gap45_rt0.4",
+    "r3_gap15_rt0.4",
+    "r3_gap45_rt0.4"
+  ],
+  "source_subsets": [
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "modes": [
+    "direct_only",
+    "reverberant"
+  ],
+  "fft_size": 512,
+  "observation_seconds": 3,
+  "band_hz": [
+    500,
+    5000
+  ],
+  "angle_grid_deg": [
+    -90,
+    90,
+    1
+  ],
+  "minimum_separation_deg": 10,
+  "matching_tolerance_deg": 5,
+  "onset": {
+    "history_frames": 4,
+    "rise_db": 3.0,
+    "keep_fraction": 0.2,
+    "relative_floor": 0.0001,
+    "minimum_snapshots": 16
+  },
+  "gate": {
+    "reverberant_minimum_matched": 9,
+    "reverberant_maximum_false_peaks": 2,
+    "direct_minimum_matched": 12,
+    "no_single_case_regression": true
+  }
+}

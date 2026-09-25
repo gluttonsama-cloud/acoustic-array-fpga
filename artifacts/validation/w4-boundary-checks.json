@@ -1,0 +1,63 @@
+{
+  "run": "artifacts/runs/w4_boundary_20260924T150817_390183Z",
+  "manifest_sha256": "6e00dcdb0a910816284aa50022f1b69d4dbe8d34a63648b7e466ccb1df83e959",
+  "output_hashes_verified": 57,
+  "completion_verified": true,
+  "rows": 48,
+  "baseline_cases_reproduced": 4,
+  "tests_passed": 349,
+  "focused_tests_passed": 29,
+  "ruff": "passed",
+  "formatted_python_files": 103,
+  "review": {
+    "model": "gpt-6-sol",
+    "role": "python-reviewer",
+    "status": "approved"
+  },
+  "summary": {
+    "direct_only": {
+      "single": [
+        12,
+        12,
+        0
+      ],
+      "pair": [
+        16,
+        16,
+        0
+      ],
+      "triple": [
+        12,
+        12,
+        0
+      ]
+    },
+    "reverberant": {
+      "single": [
+        8,
+        12,
+        4
+      ],
+      "pair": [
+        14,
+        16,
+        2
+      ],
+      "triple": [
+        9,
+        12,
+        3
+      ]
+    }
+  },
+  "summary_fields": [
+    "matched",
+    "expected",
+    "false_peaks"
+  ],
+  "documentation": {
+    "links": 373,
+    "broken": 0,
+    "unindexed": 0
+  }
+}

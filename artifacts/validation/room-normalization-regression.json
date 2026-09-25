@@ -1,0 +1,6 @@
+{
+  "run": "artifacts\\runs\\g1_near_field_20260922T121333_173315Z",
+  "cases": 6,
+  "masks_gains_delays": "bitwise_identical",
+  "scope": "existing development data only; no S1 rescore"
+}

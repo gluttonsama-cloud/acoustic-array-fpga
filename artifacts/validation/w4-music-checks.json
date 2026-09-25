@@ -1,0 +1,52 @@
+{
+  "run": "artifacts/runs/w4_music_20260924T144429_585399Z",
+  "manifest_sha256": "967f2c91e91cc75af3205c92ed436ce1ccad9f8af62f52b94e618d02589ec291",
+  "output_hashes_verified": 57,
+  "output_hash_failures": 0,
+  "completion_manifest_matches": true,
+  "results": {
+    "srp_phat": {"matched": 7, "missed": 5, "false_peaks": 4},
+    "normmusic": {"matched": 9, "missed": 3, "false_peaks": 3},
+    "music": {"matched": 5, "missed": 7, "false_peaks": 7}
+  },
+  "decision": {
+    "primary_method": "normmusic",
+    "minimum_matched": 9,
+    "maximum_false_peaks": 2,
+    "no_case_match_regression_required": true,
+    "no_case_match_regression": true,
+    "pass_for_audio_integration": false,
+    "failed_clause": "false_peaks 3 > 2"
+  },
+  "tests": {
+    "tdd_red_missing_module": true,
+    "review_silence_regression_red_then_green": true,
+    "music_focused_passed": 24,
+    "full_suite_passed": 344,
+    "ruff_check": "passed",
+    "ruff_format_files": 101
+  },
+  "review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "role": "python-reviewer",
+    "initial_status": "blocked_high_silence_false_peaks",
+    "final_status": "approved_after_silence_and_common_scale_fix",
+    "open_critical_high": 0,
+    "open_low": "np.abs may overflow only for near-float-limit complex values; irrelevant to current audio scale"
+  },
+  "dependency": {
+    "version": "pyroomacoustics==0.10.1",
+    "wheel_sha256": "421fa320b6ad31465dc59e137a7b0e1033687cb821febcc8cb4d76f67a4c7b57",
+    "pip_check": "passed"
+  },
+  "documentation_check": {"links": 364, "broken": 0, "unindexed": 0},
+  "current_increment_sha256": {
+    "src/acoustic_array/localization/music_reference.py": "5e6a123fcb54621e2308710e1f4445612b9c9fcb1f0619896b298e27b45c1164",
+    "tests/test_music_reference.py": "3d36941f7ef7a012c483a592b45de770559296de4f79e1787623ca63601c3f3d",
+    "tools/w4_static_demo.py": "1689d3e45af357e7b258b3637f57fe684b6ada903cf96bf37260a39d321d7411",
+    "configs/experiments/w4_music.json": "9cc9901151594d519d15be0b2ff42a57ec3179997ee4f9d9df808600797b1a17",
+    "pyproject.toml": "b3eca093d7e50af3d6131bd4230e8595751ce9695798c30018f9d83f820563b7",
+    "requirements-lock.txt": "71228c431897458d7ef8e5b23e783d472a422d4999144c151bcc927abeda7d50"
+  }
+}

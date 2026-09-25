@@ -1,0 +1,1969 @@
+{
+  "schema_version": "1.0",
+  "status": "unscored_speaker_disjoint_holdout",
+  "dataset_id": "openslr12-librispeech",
+  "license": "CC-BY-4.0",
+  "attribution": "LibriSpeech: Panayotov, Chen, Povey and Khudanpur (ICASSP 2015); LibriVox readers.",
+  "source_page": "https://www.openslr.org/12/",
+  "modifications": "Original FLAC unchanged. Evaluation will crop 0..10 s and resample 16 to 48 kHz.",
+  "files": [
+    {
+      "utterance_id": "121-123852-0000",
+      "speaker_id": "121",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 283120,
+      "archive_member": "LibriSpeech/test-clean/121/123852/121-123852-0000.flac",
+      "sha256": "58d6350b52675d6d19616bc0347afc52a1535f8ea8be82aabb7275e6919a2598",
+      "bytes": 286166,
+      "path": "data/raw/s1_candidate_verified_v1/121-123852-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "237-126133-0000",
+      "speaker_id": "237",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 212640,
+      "archive_member": "LibriSpeech/test-clean/237/126133/237-126133-0000.flac",
+      "sha256": "25466538df82602d1e597b0cb016e4dd0ce11031cb8994a4289d1c07170878ee",
+      "bytes": 232489,
+      "path": "data/raw/s1_candidate_verified_v1/237-126133-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "260-123286-0019",
+      "speaker_id": "260",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 190480,
+      "archive_member": "LibriSpeech/test-clean/260/123286/260-123286-0019.flac",
+      "sha256": "271e626e78815d8062c8df36730cea52fc2cf183274b8e7dc7f5a103704b6c07",
+      "bytes": 211013,
+      "path": "data/raw/s1_candidate_verified_v1/260-123286-0019.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "672-122797-0001",
+      "speaker_id": "672",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 242080,
+      "archive_member": "LibriSpeech/test-clean/672/122797/672-122797-0001.flac",
+      "sha256": "db2e7f1a0b8bf6130c2b8cd104cc6b9dee0d0ffd3ab5eb68fad072a3e442b956",
+      "bytes": 308775,
+      "path": "data/raw/s1_candidate_verified_v1/672-122797-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "908-31957-0001",
+      "speaker_id": "908",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 181040,
+      "archive_member": "LibriSpeech/test-clean/908/31957/908-31957-0001.flac",
+      "sha256": "2782509f3e0125cdc87858930b23fac16cc438cadf87ea107605c97f31f334f0",
+      "bytes": 206602,
+      "path": "data/raw/s1_candidate_verified_v1/908-31957-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1089-134686-0000",
+      "speaker_id": "1089",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 166960,
+      "archive_member": "LibriSpeech/test-clean/1089/134686/1089-134686-0000.flac",
+      "sha256": "30885601173f96b0d8ddd020dc959b055c6c1582b85a33e3fcab8c4b08ed94c2",
+      "bytes": 183318,
+      "path": "data/raw/s1_candidate_verified_v1/1089-134686-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1188-133604-0000",
+      "speaker_id": "1188",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 171600,
+      "archive_member": "LibriSpeech/test-clean/1188/133604/1188-133604-0000.flac",
+      "sha256": "4a10149395cb5af8aa5d04ef3adb49b3980baa93114d0851046e6343744b26cb",
+      "bytes": 159035,
+      "path": "data/raw/s1_candidate_verified_v1/1188-133604-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1221-135766-0000",
+      "speaker_id": "1221",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 198960,
+      "archive_member": "LibriSpeech/test-clean/1221/135766/1221-135766-0000.flac",
+      "sha256": "1f6b9ba126dc0f0a3cb813b04e2c970ff9583beeaf8cfaa8f7c8199244aa2514",
+      "bytes": 254266,
+      "path": "data/raw/s1_candidate_verified_v1/1221-135766-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1284-1180-0008",
+      "speaker_id": "1284",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 167840,
+      "archive_member": "LibriSpeech/test-clean/1284/1180/1284-1180-0008.flac",
+      "sha256": "eb61532402137b2abbea52d424f46ee114b96e568717aeb5c3a4a9c58aef8bd3",
+      "bytes": 203905,
+      "path": "data/raw/s1_candidate_verified_v1/1284-1180-0008.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1320-122612-0000",
+      "speaker_id": "1320",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 215680,
+      "archive_member": "LibriSpeech/test-clean/1320/122612/1320-122612-0000.flac",
+      "sha256": "2f914687b13e1864d267282c3749ab6f0b6a5b7dcb2b772f28b6a3af7854859e",
+      "bytes": 263962,
+      "path": "data/raw/s1_candidate_verified_v1/1320-122612-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1580-141083-0001",
+      "speaker_id": "1580",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 164080,
+      "archive_member": "LibriSpeech/test-clean/1580/141083/1580-141083-0001.flac",
+      "sha256": "9914a442f04e4fed4a8144ec63326ec3b5f031ccd73203b1a9c309182a172ba7",
+      "bytes": 211302,
+      "path": "data/raw/s1_candidate_verified_v1/1580-141083-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "1995-1826-0001",
+      "speaker_id": "1995",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 162720,
+      "archive_member": "LibriSpeech/test-clean/1995/1826/1995-1826-0001.flac",
+      "sha256": "56d8ebeb4138c7cc33c7f468aec078a3d76694b8759b1e860d876288f475e8ee",
+      "bytes": 192556,
+      "path": "data/raw/s1_candidate_verified_v1/1995-1826-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "2094-142345-0000",
+      "speaker_id": "2094",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 361120,
+      "archive_member": "LibriSpeech/test-clean/2094/142345/2094-142345-0000.flac",
+      "sha256": "557af1a29773cd4d78e62aa9e1ad55e2e46db5cde88b7a84c4692427df765279",
+      "bytes": 450531,
+      "path": "data/raw/s1_candidate_verified_v1/2094-142345-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "2300-131720-0001",
+      "speaker_id": "2300",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 234080,
+      "archive_member": "LibriSpeech/test-clean/2300/131720/2300-131720-0001.flac",
+      "sha256": "421a5788b45cc79e2c7eb4cc91ad5ca98a0644a0dab2978436a20fc4cd1853ce",
+      "bytes": 258634,
+      "path": "data/raw/s1_candidate_verified_v1/2300-131720-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "2830-3979-0001",
+      "speaker_id": "2830",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 258001,
+      "archive_member": "LibriSpeech/test-clean/2830/3979/2830-3979-0001.flac",
+      "sha256": "46bd81f7e35e2ae044f73e02e977c76dacf907999ae8a1085521a468f4cd9df9",
+      "bytes": 296756,
+      "path": "data/raw/s1_candidate_verified_v1/2830-3979-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "2961-960-0000",
+      "speaker_id": "2961",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 434880,
+      "archive_member": "LibriSpeech/test-clean/2961/960/2961-960-0000.flac",
+      "sha256": "370a3a9f5cda245004db3e6178a7a9a50919687fb24dea05e661a0ad2e7c1c5d",
+      "bytes": 511555,
+      "path": "data/raw/s1_candidate_verified_v1/2961-960-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "3570-5694-0000",
+      "speaker_id": "3570",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 193360,
+      "archive_member": "LibriSpeech/test-clean/3570/5694/3570-5694-0000.flac",
+      "sha256": "55049eed3f6a821b44b5b8d0e2a7348fc01692fc79981ec56b140ac0f051579e",
+      "bytes": 230298,
+      "path": "data/raw/s1_candidate_verified_v1/3570-5694-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "3575-170457-0008",
+      "speaker_id": "3575",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 216880,
+      "archive_member": "LibriSpeech/test-clean/3575/170457/3575-170457-0008.flac",
+      "sha256": "8eea675c07ba216742d7fd9c335af9f244a240eb3bfa2c72e7ee6f07e4675a07",
+      "bytes": 249880,
+      "path": "data/raw/s1_candidate_verified_v1/3575-170457-0008.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "3729-6852-0000",
+      "speaker_id": "3729",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 178720,
+      "archive_member": "LibriSpeech/test-clean/3729/6852/3729-6852-0000.flac",
+      "sha256": "3fa96f8e0276d79ec027bb1595215a8bbeb488cefcc1702ff798e91ec8504403",
+      "bytes": 211810,
+      "path": "data/raw/s1_candidate_verified_v1/3729-6852-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "4077-13751-0003",
+      "speaker_id": "4077",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 267520,
+      "archive_member": "LibriSpeech/test-clean/4077/13751/4077-13751-0003.flac",
+      "sha256": "626c4cac3e1471d920ab07e40d3a27aa1e08743592bb5e6d412df903534004b9",
+      "bytes": 337097,
+      "path": "data/raw/s1_candidate_verified_v1/4077-13751-0003.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "4446-2271-0004",
+      "speaker_id": "4446",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 192160,
+      "archive_member": "LibriSpeech/test-clean/4446/2271/4446-2271-0004.flac",
+      "sha256": "1aba42a9dabce81eaad32bc6625668d8b3a2a3ba374f36a835a61500848ed7b5",
+      "bytes": 199819,
+      "path": "data/raw/s1_candidate_verified_v1/4446-2271-0004.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "4507-16021-0001",
+      "speaker_id": "4507",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 181120,
+      "archive_member": "LibriSpeech/test-clean/4507/16021/4507-16021-0001.flac",
+      "sha256": "3fec8e81e775deb6b2cc2bbbb24463289953d7c249157437f6bf3c043f1840c9",
+      "bytes": 200084,
+      "path": "data/raw/s1_candidate_verified_v1/4507-16021-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "4970-29093-0001",
+      "speaker_id": "4970",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 190720,
+      "archive_member": "LibriSpeech/test-clean/4970/29093/4970-29093-0001.flac",
+      "sha256": "701b3334cfbacfb695b56f66d970f84896f81587199d7f0c0d3ad688bd925aa7",
+      "bytes": 202115,
+      "path": "data/raw/s1_candidate_verified_v1/4970-29093-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "4992-23283-0005",
+      "speaker_id": "4992",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 171840,
+      "archive_member": "LibriSpeech/test-clean/4992/23283/4992-23283-0005.flac",
+      "sha256": "048a44c9d4a749aeb94236f716501edf782ae97e5190fb2cc0301df4dd5f52cd",
+      "bytes": 185275,
+      "path": "data/raw/s1_candidate_verified_v1/4992-23283-0005.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "5105-28233-0003",
+      "speaker_id": "5105",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 236960,
+      "archive_member": "LibriSpeech/test-clean/5105/28233/5105-28233-0003.flac",
+      "sha256": "2502ae6d45c20aee5c53fe0105c1b165a12cf3b604d0480bc932db0e6fd7c3e7",
+      "bytes": 288474,
+      "path": "data/raw/s1_candidate_verified_v1/5105-28233-0003.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "5142-36377-0008",
+      "speaker_id": "5142",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 246800,
+      "archive_member": "LibriSpeech/test-clean/5142/36377/5142-36377-0008.flac",
+      "sha256": "1ae0c5b14c44d7ec1a7a289c55e650ee101e6416f5799cf922fc36b215ef46f0",
+      "bytes": 304783,
+      "path": "data/raw/s1_candidate_verified_v1/5142-36377-0008.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "5639-40744-0000",
+      "speaker_id": "5639",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 252320,
+      "archive_member": "LibriSpeech/test-clean/5639/40744/5639-40744-0000.flac",
+      "sha256": "5f25c4ad283ffb96549c83498dd4255ec20fd1470c7e4041d5c5b3ac86e62606",
+      "bytes": 245529,
+      "path": "data/raw/s1_candidate_verified_v1/5639-40744-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "5683-32865-0005",
+      "speaker_id": "5683",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 161920,
+      "archive_member": "LibriSpeech/test-clean/5683/32865/5683-32865-0005.flac",
+      "sha256": "b14159f85ca58093e6b8e7d5ba10b0c461187cac3bc179e91507f326d2e0e78d",
+      "bytes": 179456,
+      "path": "data/raw/s1_candidate_verified_v1/5683-32865-0005.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "6829-68769-0000",
+      "speaker_id": "6829",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 187120,
+      "archive_member": "LibriSpeech/test-clean/6829/68769/6829-68769-0000.flac",
+      "sha256": "2f5d7ee4899ac1ba7bd170757a30b3679aad182830b0900d27967761e6f60826",
+      "bytes": 232671,
+      "path": "data/raw/s1_candidate_verified_v1/6829-68769-0000.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "6930-75918-0001",
+      "speaker_id": "6930",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 227600,
+      "archive_member": "LibriSpeech/test-clean/6930/75918/6930-75918-0001.flac",
+      "sha256": "3dfad7eb0793eddd5040d04f1f2f3046ceeee39e0ec461794856a350e1bd728e",
+      "bytes": 287636,
+      "path": "data/raw/s1_candidate_verified_v1/6930-75918-0001.flac",
+      "source_subset": "test-clean"
+    },
+    {
+      "utterance_id": "84-121123-0002",
+      "speaker_id": "84",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 219040,
+      "archive_member": "LibriSpeech/dev-clean/84/121123/84-121123-0002.flac",
+      "sha256": "453d47cd8fc7329ac868128a4ac919d7ced28fda9ee72303d2189f064f8d1324",
+      "bytes": 265402,
+      "path": "data/raw/s1_dev_clean_v1/84-121123-0002.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "174-50561-0001",
+      "speaker_id": "174",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 253760,
+      "archive_member": "LibriSpeech/dev-clean/174/50561/174-50561-0001.flac",
+      "sha256": "cfa138f5bde8bbf55b18c670c2d08025233bda6d3b7b520f78c9ccb8a8678975",
+      "bytes": 262549,
+      "path": "data/raw/s1_dev_clean_v1/174-50561-0001.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "251-118436-0003",
+      "speaker_id": "251",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 176320,
+      "archive_member": "LibriSpeech/dev-clean/251/118436/251-118436-0003.flac",
+      "sha256": "2d6377ec7f350c09fb947aa1fc6ef3a07d477c0914bb0e901cd15f6f3e23cc03",
+      "bytes": 204641,
+      "path": "data/raw/s1_dev_clean_v1/251-118436-0003.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "422-122949-0000",
+      "speaker_id": "422",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 323520,
+      "archive_member": "LibriSpeech/dev-clean/422/122949/422-122949-0000.flac",
+      "sha256": "98a395599683280829ffe5ec2d22b5bd690d2d71cfd9b6f43cf5a9955147332a",
+      "bytes": 408437,
+      "path": "data/raw/s1_dev_clean_v1/422-122949-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "652-129742-0009",
+      "speaker_id": "652",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 223520,
+      "archive_member": "LibriSpeech/dev-clean/652/129742/652-129742-0009.flac",
+      "sha256": "98175a8e4bc663c37bd0e4a183ac48f649044faac4940f9b137b834a856a81be",
+      "bytes": 255166,
+      "path": "data/raw/s1_dev_clean_v1/652-129742-0009.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "777-126732-0005",
+      "speaker_id": "777",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 177920,
+      "archive_member": "LibriSpeech/dev-clean/777/126732/777-126732-0005.flac",
+      "sha256": "b136883f21f170d0d2710f5245226191805f14f000332166018bb59751db55e6",
+      "bytes": 187292,
+      "path": "data/raw/s1_dev_clean_v1/777-126732-0005.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1272-128104-0002",
+      "speaker_id": "1272",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 199760,
+      "archive_member": "LibriSpeech/dev-clean/1272/128104/1272-128104-0002.flac",
+      "sha256": "59bf7bb1129c11734a8dd362ad52b4e10ae31c03f0879fc92f7107ecd513513f",
+      "bytes": 255853,
+      "path": "data/raw/s1_dev_clean_v1/1272-128104-0002.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1462-170138-0000",
+      "speaker_id": "1462",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 232800,
+      "archive_member": "LibriSpeech/dev-clean/1462/170138/1462-170138-0000.flac",
+      "sha256": "0db52d84970679037bc6c95364086159db5f051e3ba14d723efb7000facf23b5",
+      "bytes": 247233,
+      "path": "data/raw/s1_dev_clean_v1/1462-170138-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1673-143396-0000",
+      "speaker_id": "1673",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 234800,
+      "archive_member": "LibriSpeech/dev-clean/1673/143396/1673-143396-0000.flac",
+      "sha256": "3e04afe2f2ce5cb949db8dfb3750eb758c2ea7ce30cd318df2e80c883d620b3c",
+      "bytes": 293408,
+      "path": "data/raw/s1_dev_clean_v1/1673-143396-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1919-142785-0001",
+      "speaker_id": "1919",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 176800,
+      "archive_member": "LibriSpeech/dev-clean/1919/142785/1919-142785-0001.flac",
+      "sha256": "22913e56a206e2090468e54c641f34d7d404535c472b5a57184887762e482714",
+      "bytes": 230279,
+      "path": "data/raw/s1_dev_clean_v1/1919-142785-0001.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1988-147956-0000",
+      "speaker_id": "1988",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 239200,
+      "archive_member": "LibriSpeech/dev-clean/1988/147956/1988-147956-0000.flac",
+      "sha256": "dd619997014d3a6d45b909f1295c847e81942193ef85c7366c2dade42244f102",
+      "bytes": 247072,
+      "path": "data/raw/s1_dev_clean_v1/1988-147956-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "1993-147149-0003",
+      "speaker_id": "1993",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 228800,
+      "archive_member": "LibriSpeech/dev-clean/1993/147149/1993-147149-0003.flac",
+      "sha256": "553294a48d1f7f672ec8f54be6162aeeefb4d83227097728bbfdc64c162d48f7",
+      "bytes": 203353,
+      "path": "data/raw/s1_dev_clean_v1/1993-147149-0003.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2035-147961-0000",
+      "speaker_id": "2035",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 241120,
+      "archive_member": "LibriSpeech/dev-clean/2035/147961/2035-147961-0000.flac",
+      "sha256": "00c1223f6c696a3b9d322326529a8ccc4806262a1e6b342c5a768c089ce672ed",
+      "bytes": 260865,
+      "path": "data/raw/s1_dev_clean_v1/2035-147961-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2078-142845-0004",
+      "speaker_id": "2078",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 370800,
+      "archive_member": "LibriSpeech/dev-clean/2078/142845/2078-142845-0004.flac",
+      "sha256": "1d10698cf36a82e8af35c54dabf685b44590976790bad8e838ef189fdbd69994",
+      "bytes": 437052,
+      "path": "data/raw/s1_dev_clean_v1/2078-142845-0004.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2086-149214-0002",
+      "speaker_id": "2086",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 267920,
+      "archive_member": "LibriSpeech/dev-clean/2086/149214/2086-149214-0002.flac",
+      "sha256": "d8a554239028644d4b946cfb066e9dfec54dbec6bb6ba6f6928d035e66d193a6",
+      "bytes": 280288,
+      "path": "data/raw/s1_dev_clean_v1/2086-149214-0002.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2277-149874-0000",
+      "speaker_id": "2277",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 248080,
+      "archive_member": "LibriSpeech/dev-clean/2277/149874/2277-149874-0000.flac",
+      "sha256": "c68896fa95aff5c7fdb3da1818829abe1b2f8b8c3a2660a92d739895e8294949",
+      "bytes": 281560,
+      "path": "data/raw/s1_dev_clean_v1/2277-149874-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2412-153947-0005",
+      "speaker_id": "2412",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 218880,
+      "archive_member": "LibriSpeech/dev-clean/2412/153947/2412-153947-0005.flac",
+      "sha256": "c7e2b5bac68fef17f565722f5696568a3334c40b99580c4d9d30b542a57e3620",
+      "bytes": 238003,
+      "path": "data/raw/s1_dev_clean_v1/2412-153947-0005.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2428-83699-0000",
+      "speaker_id": "2428",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 212880,
+      "archive_member": "LibriSpeech/dev-clean/2428/83699/2428-83699-0000.flac",
+      "sha256": "dbdfe7afcc75aa9229e7f888a060a909931215062aa7a87a3c2adccb6af35d2a",
+      "bytes": 227664,
+      "path": "data/raw/s1_dev_clean_v1/2428-83699-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2803-154320-0000",
+      "speaker_id": "2803",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 183680,
+      "archive_member": "LibriSpeech/dev-clean/2803/154320/2803-154320-0000.flac",
+      "sha256": "c03cf32b36cc772a1448763e7856e53dbfa6b1679c2f4aeba20dd55d85953075",
+      "bytes": 182563,
+      "path": "data/raw/s1_dev_clean_v1/2803-154320-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "2902-9006-0001",
+      "speaker_id": "2902",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 369120,
+      "archive_member": "LibriSpeech/dev-clean/2902/9006/2902-9006-0001.flac",
+      "sha256": "092ce5b4c5af47b6acdd09ae8fea3966cbd8aafe774e3a38568c9adccd4c79b0",
+      "bytes": 427031,
+      "path": "data/raw/s1_dev_clean_v1/2902-9006-0001.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3000-15664-0001",
+      "speaker_id": "3000",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 333760,
+      "archive_member": "LibriSpeech/dev-clean/3000/15664/3000-15664-0001.flac",
+      "sha256": "db69c748c206a158b8289b4cc8f45a32d6ac841ba0e1280bab752f816575eda1",
+      "bytes": 329128,
+      "path": "data/raw/s1_dev_clean_v1/3000-15664-0001.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3081-166546-0000",
+      "speaker_id": "3081",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 168000,
+      "archive_member": "LibriSpeech/dev-clean/3081/166546/3081-166546-0000.flac",
+      "sha256": "a0a99c5c2f9da504669449e9f085f0963e75e4fe2968e69c9f8bb81538653e7a",
+      "bytes": 174582,
+      "path": "data/raw/s1_dev_clean_v1/3081-166546-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3170-137482-0000",
+      "speaker_id": "3170",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 447840,
+      "archive_member": "LibriSpeech/dev-clean/3170/137482/3170-137482-0000.flac",
+      "sha256": "5eb5546f2f99a25ca0912ed95f4d4ba952772c67a424b94c1b25a85cc8aaa323",
+      "bytes": 491651,
+      "path": "data/raw/s1_dev_clean_v1/3170-137482-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3536-8226-0000",
+      "speaker_id": "3536",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 172080,
+      "archive_member": "LibriSpeech/dev-clean/3536/8226/3536-8226-0000.flac",
+      "sha256": "18e2eb93889274f30f6898a9b380aafe16f570c33c21191d9d9129ebd016ac59",
+      "bytes": 190185,
+      "path": "data/raw/s1_dev_clean_v1/3536-8226-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3576-138058-0000",
+      "speaker_id": "3576",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 226240,
+      "archive_member": "LibriSpeech/dev-clean/3576/138058/3576-138058-0000.flac",
+      "sha256": "f4247837be6caf9dd06ba62280042a31b7ab98ee0646d68d94b85af0e31cd52f",
+      "bytes": 285286,
+      "path": "data/raw/s1_dev_clean_v1/3576-138058-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3752-4943-0001",
+      "speaker_id": "3752",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 177280,
+      "archive_member": "LibriSpeech/dev-clean/3752/4943/3752-4943-0001.flac",
+      "sha256": "450cd68f02625ae7f9e091cc0968012c0ee00bcc2b0894b7d0ab7f35a0596c39",
+      "bytes": 210301,
+      "path": "data/raw/s1_dev_clean_v1/3752-4943-0001.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "3853-163249-0005",
+      "speaker_id": "3853",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 170720,
+      "archive_member": "LibriSpeech/dev-clean/3853/163249/3853-163249-0005.flac",
+      "sha256": "f5780dd3bfc627337703352fdfd6a93d5adb79af5c210f12bde86f5e2f709078",
+      "bytes": 251621,
+      "path": "data/raw/s1_dev_clean_v1/3853-163249-0005.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "5338-24615-0000",
+      "speaker_id": "5338",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 160400,
+      "archive_member": "LibriSpeech/dev-clean/5338/24615/5338-24615-0000.flac",
+      "sha256": "41dc401cd9486c46eb5effed42ef228c5f7ad409f7d8a4b83c4f3ebcc633a808",
+      "bytes": 179447,
+      "path": "data/raw/s1_dev_clean_v1/5338-24615-0000.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "5536-43358-0002",
+      "speaker_id": "5536",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 161760,
+      "archive_member": "LibriSpeech/dev-clean/5536/43358/5536-43358-0002.flac",
+      "sha256": "c92ed8ae81bb3cf6fa6d0917216838dc4ebd83e9c4a8c2165e740791abf898c6",
+      "bytes": 184972,
+      "path": "data/raw/s1_dev_clean_v1/5536-43358-0002.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "5694-64025-0002",
+      "speaker_id": "5694",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 175360,
+      "archive_member": "LibriSpeech/dev-clean/5694/64025/5694-64025-0002.flac",
+      "sha256": "0dec4da67fa28ffd4b6114f822703c4f8bb6be54ddb836fc29fe015f3f74447d",
+      "bytes": 188570,
+      "path": "data/raw/s1_dev_clean_v1/5694-64025-0002.flac",
+      "source_subset": "dev-clean"
+    },
+    {
+      "utterance_id": "116-288045-0000",
+      "speaker_id": "116",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 170400,
+      "archive_member": "LibriSpeech/dev-other/116/288045/116-288045-0000.flac",
+      "sha256": "0fb89327ca3d3d582323448e555530eef909652e7511ed86afbc3fce35f82a88",
+      "bytes": 200761,
+      "path": "data/raw/s1_dev_other_v1/116-288045-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "700-122866-0006",
+      "speaker_id": "700",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 203680,
+      "archive_member": "LibriSpeech/dev-other/700/122866/700-122866-0006.flac",
+      "sha256": "ee36084b0d25061e008e518eac0fb375cd9a3c348dd071cb7e459f72fcd529c6",
+      "bytes": 250323,
+      "path": "data/raw/s1_dev_other_v1/700-122866-0006.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1255-74899-0008",
+      "speaker_id": "1255",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 293920,
+      "archive_member": "LibriSpeech/dev-other/1255/74899/1255-74899-0008.flac",
+      "sha256": "dd62a711c453344a19148f12cc5ac18f73e80cfe0605f46122f447332a3a9b34",
+      "bytes": 345350,
+      "path": "data/raw/s1_dev_other_v1/1255-74899-0008.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1585-131718-0000",
+      "speaker_id": "1585",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 252000,
+      "archive_member": "LibriSpeech/dev-other/1585/131718/1585-131718-0000.flac",
+      "sha256": "d4b6223d641b80805090c35f3d013a607f1eeadb260558102dc1b8591d5a8fd7",
+      "bytes": 275854,
+      "path": "data/raw/s1_dev_other_v1/1585-131718-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1630-73710-0000",
+      "speaker_id": "1630",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 323520,
+      "archive_member": "LibriSpeech/dev-other/1630/73710/1630-73710-0000.flac",
+      "sha256": "1199fdb343ff2ab2b08d5c7e1c8224a82c9d9bff36873c2da1d58bc5322c85f9",
+      "bytes": 377602,
+      "path": "data/raw/s1_dev_other_v1/1630-73710-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1650-157641-0006",
+      "speaker_id": "1650",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 183120,
+      "archive_member": "LibriSpeech/dev-other/1650/157641/1650-157641-0006.flac",
+      "sha256": "71a17fe405a9280bfee1fd2f83d01d2fdfb52ce7e726009bd95d9a19c074fc29",
+      "bytes": 162881,
+      "path": "data/raw/s1_dev_other_v1/1650-157641-0006.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1651-136854-0004",
+      "speaker_id": "1651",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 181200,
+      "archive_member": "LibriSpeech/dev-other/1651/136854/1651-136854-0004.flac",
+      "sha256": "3fd77dcf65770f4c4f96926cb9951a9ab39ccf3b61542462d87bed4fc48b534b",
+      "bytes": 237072,
+      "path": "data/raw/s1_dev_other_v1/1651-136854-0004.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1686-142278-0002",
+      "speaker_id": "1686",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 224320,
+      "archive_member": "LibriSpeech/dev-other/1686/142278/1686-142278-0002.flac",
+      "sha256": "22a3785b9bb007dae02c3f6d43d45129f4698a6ec735ed9a7acff06b165decae",
+      "bytes": 226521,
+      "path": "data/raw/s1_dev_other_v1/1686-142278-0002.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "1701-141759-0003",
+      "speaker_id": "1701",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 222399,
+      "archive_member": "LibriSpeech/dev-other/1701/141759/1701-141759-0003.flac",
+      "sha256": "ffff94f89b7f3ea4b08def2fd75e1977b3b953b0079da02b0988911fbaf6a9dc",
+      "bytes": 247438,
+      "path": "data/raw/s1_dev_other_v1/1701-141759-0003.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "2506-11267-0001",
+      "speaker_id": "2506",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 171680,
+      "archive_member": "LibriSpeech/dev-other/2506/11267/2506-11267-0001.flac",
+      "sha256": "b0e85ea1bb6239f5771b565c29361dfda6d68d088908cb51b53fd56fe68ac78e",
+      "bytes": 197157,
+      "path": "data/raw/s1_dev_other_v1/2506-11267-0001.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "3660-6517-0005",
+      "speaker_id": "3660",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 167680,
+      "archive_member": "LibriSpeech/dev-other/3660/6517/3660-6517-0005.flac",
+      "sha256": "18b3592e99b0b7477bb4136c24b843cfee9f0ba712dfcb20849405a2296a056b",
+      "bytes": 193818,
+      "path": "data/raw/s1_dev_other_v1/3660-6517-0005.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "3663-172528-0003",
+      "speaker_id": "3663",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 187040,
+      "archive_member": "LibriSpeech/dev-other/3663/172528/3663-172528-0003.flac",
+      "sha256": "3d108c1c5cc2c4cf81f9953ef31761425b7939ee4eaf9d9d4e18984d5ca805ca",
+      "bytes": 218510,
+      "path": "data/raw/s1_dev_other_v1/3663-172528-0003.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "3915-57461-0001",
+      "speaker_id": "3915",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 229360,
+      "archive_member": "LibriSpeech/dev-other/3915/57461/3915-57461-0001.flac",
+      "sha256": "1bf269fc92febde07de56df5dca9bab4b7e7e2c751726587f265a3b299eaf094",
+      "bytes": 264407,
+      "path": "data/raw/s1_dev_other_v1/3915-57461-0001.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4153-61735-0002",
+      "speaker_id": "4153",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 231680,
+      "archive_member": "LibriSpeech/dev-other/4153/61735/4153-61735-0002.flac",
+      "sha256": "8e1efb99f310121d0cd77310f4405ea5564c5f6d0b0c34a4a418103738a14b75",
+      "bytes": 282019,
+      "path": "data/raw/s1_dev_other_v1/4153-61735-0002.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4323-13259-0000",
+      "speaker_id": "4323",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 196240,
+      "archive_member": "LibriSpeech/dev-other/4323/13259/4323-13259-0000.flac",
+      "sha256": "f7623006c18395d228ce2cb9cc89fc1a912c562571c35895e81c85498e3aa2ca",
+      "bytes": 201613,
+      "path": "data/raw/s1_dev_other_v1/4323-13259-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4515-11057-0000",
+      "speaker_id": "4515",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 228480,
+      "archive_member": "LibriSpeech/dev-other/4515/11057/4515-11057-0000.flac",
+      "sha256": "c3b3d57ac714624e5d72dfd7fd1eba54a4e618f27e4141b9a926a503efb0b1c4",
+      "bytes": 231911,
+      "path": "data/raw/s1_dev_other_v1/4515-11057-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4570-14911-0001",
+      "speaker_id": "4570",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 234480,
+      "archive_member": "LibriSpeech/dev-other/4570/14911/4570-14911-0001.flac",
+      "sha256": "0e1b43e503b9c11f697d061c0f814ad87a344a9a208f0dbe8eb4acc3dfbd7f10",
+      "bytes": 241813,
+      "path": "data/raw/s1_dev_other_v1/4570-14911-0001.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4572-64670-0000",
+      "speaker_id": "4572",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 180560,
+      "archive_member": "LibriSpeech/dev-other/4572/64670/4572-64670-0000.flac",
+      "sha256": "ea339002fd41baf424433687ae616b19ad6ecb28c033171271f441ed47017da1",
+      "bytes": 218756,
+      "path": "data/raw/s1_dev_other_v1/4572-64670-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "4831-18525-0000",
+      "speaker_id": "4831",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 160880,
+      "archive_member": "LibriSpeech/dev-other/4831/18525/4831-18525-0000.flac",
+      "sha256": "102da3c77f47445195b32de1ab7d26ec899fca8ece21b5b55358e15cb13d38d6",
+      "bytes": 203042,
+      "path": "data/raw/s1_dev_other_v1/4831-18525-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "5543-27761-0013",
+      "speaker_id": "5543",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 184960,
+      "archive_member": "LibriSpeech/dev-other/5543/27761/5543-27761-0013.flac",
+      "sha256": "4a8d4776002e1e294d2d3c4801cb42b86fda435b0a9cf6fc8604da53a3cbd454",
+      "bytes": 223297,
+      "path": "data/raw/s1_dev_other_v1/5543-27761-0013.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "5849-50873-0000",
+      "speaker_id": "5849",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 190720,
+      "archive_member": "LibriSpeech/dev-other/5849/50873/5849-50873-0000.flac",
+      "sha256": "ee485d295cab6e9667304c3c6128ca8165a4966460a8d5a1f97bcbfaaffb0755",
+      "bytes": 192651,
+      "path": "data/raw/s1_dev_other_v1/5849-50873-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6123-59150-0013",
+      "speaker_id": "6123",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 183360,
+      "archive_member": "LibriSpeech/dev-other/6123/59150/6123-59150-0013.flac",
+      "sha256": "ebd546532224eb2054c7b4e429faccaecc41738b7a429e1acb234d530be41ba6",
+      "bytes": 216518,
+      "path": "data/raw/s1_dev_other_v1/6123-59150-0013.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6267-53049-0011",
+      "speaker_id": "6267",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 249200,
+      "archive_member": "LibriSpeech/dev-other/6267/53049/6267-53049-0011.flac",
+      "sha256": "65042b38d6ecd27874ec4535fa728a19cb416359fa3595401176f69976b7f7b7",
+      "bytes": 252344,
+      "path": "data/raw/s1_dev_other_v1/6267-53049-0011.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6455-67804-0022",
+      "speaker_id": "6455",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 218480,
+      "archive_member": "LibriSpeech/dev-other/6455/67804/6455-67804-0022.flac",
+      "sha256": "14a60b214df0a002db84d371a7f55fa3159595a574fa48f8ecf5edc1d7b536a6",
+      "bytes": 250107,
+      "path": "data/raw/s1_dev_other_v1/6455-67804-0022.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6467-56885-0002",
+      "speaker_id": "6467",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 232480,
+      "archive_member": "LibriSpeech/dev-other/6467/56885/6467-56885-0002.flac",
+      "sha256": "50418564f7d4b3f3dad4229d5a480d376bdf8779c327dc199faa12a9d141a4c5",
+      "bytes": 280829,
+      "path": "data/raw/s1_dev_other_v1/6467-56885-0002.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6599-38590-0000",
+      "speaker_id": "6599",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 161520,
+      "archive_member": "LibriSpeech/dev-other/6599/38590/6599-38590-0000.flac",
+      "sha256": "fd32abd0b1b970d8cdeaa7a22f3e6171e199452826276bd7c572c28f7ee3f826",
+      "bytes": 154018,
+      "path": "data/raw/s1_dev_other_v1/6599-38590-0000.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "6841-88291-0001",
+      "speaker_id": "6841",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 260240,
+      "archive_member": "LibriSpeech/dev-other/6841/88291/6841-88291-0001.flac",
+      "sha256": "a256c6881a5c2e4e6e3a9a7cfef81de0c4e269fbd25b04e473543df2ca6e4b86",
+      "bytes": 293567,
+      "path": "data/raw/s1_dev_other_v1/6841-88291-0001.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "7601-101619-0001",
+      "speaker_id": "7601",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 312160,
+      "archive_member": "LibriSpeech/dev-other/7601/101619/7601-101619-0001.flac",
+      "sha256": "3568b49a3a37c549d3910513f1b858e2ade66d3f0beca32057e7c2d864d84585",
+      "bytes": 301274,
+      "path": "data/raw/s1_dev_other_v1/7601-101619-0001.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "7641-96252-0004",
+      "speaker_id": "7641",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 266480,
+      "archive_member": "LibriSpeech/dev-other/7641/96252/7641-96252-0004.flac",
+      "sha256": "8ed321c84acae46664bb98d7d5174770de1a160775d865ed5f151cdc8ad6241f",
+      "bytes": 305661,
+      "path": "data/raw/s1_dev_other_v1/7641-96252-0004.flac",
+      "source_subset": "dev-other"
+    },
+    {
+      "utterance_id": "7697-105815-0023",
+      "speaker_id": "7697",
+      "sample_rate_hz": 16000,
+      "channels": 1,
+      "frames": 200960,
+      "archive_member": "LibriSpeech/dev-other/7697/105815/7697-105815-0023.flac",
+      "sha256": "e4b98659bad3639d0e13ba03b06361ca70524a25e7f1ab566c788446442154be",
+      "bytes": 212762,
+      "path": "data/raw/s1_dev_other_v1/7697-105815-0023.flac",
+      "source_subset": "dev-other"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "s1-test-clean-00",
+      "speaker_cluster_id": "s1-test-clean-00",
+      "sources": [
+        {
+          "utterance_id": "121-123852-0000",
+          "speaker_id": "121",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "237-126133-0000",
+          "speaker_id": "237",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "260-123286-0019",
+          "speaker_id": "260",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-01",
+      "speaker_cluster_id": "s1-test-clean-01",
+      "sources": [
+        {
+          "utterance_id": "672-122797-0001",
+          "speaker_id": "672",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "908-31957-0001",
+          "speaker_id": "908",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1089-134686-0000",
+          "speaker_id": "1089",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-02",
+      "speaker_cluster_id": "s1-test-clean-02",
+      "sources": [
+        {
+          "utterance_id": "1188-133604-0000",
+          "speaker_id": "1188",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1221-135766-0000",
+          "speaker_id": "1221",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1284-1180-0008",
+          "speaker_id": "1284",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-03",
+      "speaker_cluster_id": "s1-test-clean-03",
+      "sources": [
+        {
+          "utterance_id": "1320-122612-0000",
+          "speaker_id": "1320",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1580-141083-0001",
+          "speaker_id": "1580",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1995-1826-0001",
+          "speaker_id": "1995",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-04",
+      "speaker_cluster_id": "s1-test-clean-04",
+      "sources": [
+        {
+          "utterance_id": "2094-142345-0000",
+          "speaker_id": "2094",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2300-131720-0001",
+          "speaker_id": "2300",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2830-3979-0001",
+          "speaker_id": "2830",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-05",
+      "speaker_cluster_id": "s1-test-clean-05",
+      "sources": [
+        {
+          "utterance_id": "2961-960-0000",
+          "speaker_id": "2961",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3570-5694-0000",
+          "speaker_id": "3570",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3575-170457-0008",
+          "speaker_id": "3575",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-06",
+      "speaker_cluster_id": "s1-test-clean-06",
+      "sources": [
+        {
+          "utterance_id": "3729-6852-0000",
+          "speaker_id": "3729",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4077-13751-0003",
+          "speaker_id": "4077",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4446-2271-0004",
+          "speaker_id": "4446",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-07",
+      "speaker_cluster_id": "s1-test-clean-07",
+      "sources": [
+        {
+          "utterance_id": "4507-16021-0001",
+          "speaker_id": "4507",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4970-29093-0001",
+          "speaker_id": "4970",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4992-23283-0005",
+          "speaker_id": "4992",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-08",
+      "speaker_cluster_id": "s1-test-clean-08",
+      "sources": [
+        {
+          "utterance_id": "5105-28233-0003",
+          "speaker_id": "5105",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5142-36377-0008",
+          "speaker_id": "5142",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5639-40744-0000",
+          "speaker_id": "5639",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-test-clean-09",
+      "speaker_cluster_id": "s1-test-clean-09",
+      "sources": [
+        {
+          "utterance_id": "5683-32865-0005",
+          "speaker_id": "5683",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6829-68769-0000",
+          "speaker_id": "6829",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6930-75918-0001",
+          "speaker_id": "6930",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "test-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-00",
+      "speaker_cluster_id": "s1-dev-clean-00",
+      "sources": [
+        {
+          "utterance_id": "84-121123-0002",
+          "speaker_id": "84",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "174-50561-0001",
+          "speaker_id": "174",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "251-118436-0003",
+          "speaker_id": "251",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-01",
+      "speaker_cluster_id": "s1-dev-clean-01",
+      "sources": [
+        {
+          "utterance_id": "422-122949-0000",
+          "speaker_id": "422",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "652-129742-0009",
+          "speaker_id": "652",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "777-126732-0005",
+          "speaker_id": "777",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-02",
+      "speaker_cluster_id": "s1-dev-clean-02",
+      "sources": [
+        {
+          "utterance_id": "1272-128104-0002",
+          "speaker_id": "1272",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1462-170138-0000",
+          "speaker_id": "1462",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1673-143396-0000",
+          "speaker_id": "1673",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-03",
+      "speaker_cluster_id": "s1-dev-clean-03",
+      "sources": [
+        {
+          "utterance_id": "1919-142785-0001",
+          "speaker_id": "1919",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1988-147956-0000",
+          "speaker_id": "1988",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1993-147149-0003",
+          "speaker_id": "1993",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-04",
+      "speaker_cluster_id": "s1-dev-clean-04",
+      "sources": [
+        {
+          "utterance_id": "2035-147961-0000",
+          "speaker_id": "2035",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2078-142845-0004",
+          "speaker_id": "2078",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2086-149214-0002",
+          "speaker_id": "2086",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-05",
+      "speaker_cluster_id": "s1-dev-clean-05",
+      "sources": [
+        {
+          "utterance_id": "2277-149874-0000",
+          "speaker_id": "2277",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2412-153947-0005",
+          "speaker_id": "2412",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2428-83699-0000",
+          "speaker_id": "2428",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-06",
+      "speaker_cluster_id": "s1-dev-clean-06",
+      "sources": [
+        {
+          "utterance_id": "2803-154320-0000",
+          "speaker_id": "2803",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "2902-9006-0001",
+          "speaker_id": "2902",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3000-15664-0001",
+          "speaker_id": "3000",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-07",
+      "speaker_cluster_id": "s1-dev-clean-07",
+      "sources": [
+        {
+          "utterance_id": "3081-166546-0000",
+          "speaker_id": "3081",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3170-137482-0000",
+          "speaker_id": "3170",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3536-8226-0000",
+          "speaker_id": "3536",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-08",
+      "speaker_cluster_id": "s1-dev-clean-08",
+      "sources": [
+        {
+          "utterance_id": "3576-138058-0000",
+          "speaker_id": "3576",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3752-4943-0001",
+          "speaker_id": "3752",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3853-163249-0005",
+          "speaker_id": "3853",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-clean-09",
+      "speaker_cluster_id": "s1-dev-clean-09",
+      "sources": [
+        {
+          "utterance_id": "5338-24615-0000",
+          "speaker_id": "5338",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5536-43358-0002",
+          "speaker_id": "5536",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5694-64025-0002",
+          "speaker_id": "5694",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-clean"
+    },
+    {
+      "scene_id": "s1-dev-other-00",
+      "speaker_cluster_id": "s1-dev-other-00",
+      "sources": [
+        {
+          "utterance_id": "116-288045-0000",
+          "speaker_id": "116",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "700-122866-0006",
+          "speaker_id": "700",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1255-74899-0008",
+          "speaker_id": "1255",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-01",
+      "speaker_cluster_id": "s1-dev-other-01",
+      "sources": [
+        {
+          "utterance_id": "1585-131718-0000",
+          "speaker_id": "1585",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1630-73710-0000",
+          "speaker_id": "1630",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1650-157641-0006",
+          "speaker_id": "1650",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-02",
+      "speaker_cluster_id": "s1-dev-other-02",
+      "sources": [
+        {
+          "utterance_id": "1651-136854-0004",
+          "speaker_id": "1651",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1686-142278-0002",
+          "speaker_id": "1686",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "1701-141759-0003",
+          "speaker_id": "1701",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-03",
+      "speaker_cluster_id": "s1-dev-other-03",
+      "sources": [
+        {
+          "utterance_id": "2506-11267-0001",
+          "speaker_id": "2506",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3660-6517-0005",
+          "speaker_id": "3660",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "3663-172528-0003",
+          "speaker_id": "3663",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-04",
+      "speaker_cluster_id": "s1-dev-other-04",
+      "sources": [
+        {
+          "utterance_id": "3915-57461-0001",
+          "speaker_id": "3915",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4153-61735-0002",
+          "speaker_id": "4153",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4323-13259-0000",
+          "speaker_id": "4323",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-05",
+      "speaker_cluster_id": "s1-dev-other-05",
+      "sources": [
+        {
+          "utterance_id": "4515-11057-0000",
+          "speaker_id": "4515",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4570-14911-0001",
+          "speaker_id": "4570",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "4572-64670-0000",
+          "speaker_id": "4572",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-06",
+      "speaker_cluster_id": "s1-dev-other-06",
+      "sources": [
+        {
+          "utterance_id": "4831-18525-0000",
+          "speaker_id": "4831",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5543-27761-0013",
+          "speaker_id": "5543",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "5849-50873-0000",
+          "speaker_id": "5849",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-07",
+      "speaker_cluster_id": "s1-dev-other-07",
+      "sources": [
+        {
+          "utterance_id": "6123-59150-0013",
+          "speaker_id": "6123",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6267-53049-0011",
+          "speaker_id": "6267",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6455-67804-0022",
+          "speaker_id": "6455",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-08",
+      "speaker_cluster_id": "s1-dev-other-08",
+      "sources": [
+        {
+          "utterance_id": "6467-56885-0002",
+          "speaker_id": "6467",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6599-38590-0000",
+          "speaker_id": "6599",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "6841-88291-0001",
+          "speaker_id": "6841",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    },
+    {
+      "scene_id": "s1-dev-other-09",
+      "speaker_cluster_id": "s1-dev-other-09",
+      "sources": [
+        {
+          "utterance_id": "7601-101619-0001",
+          "speaker_id": "7601",
+          "angle_degrees": -45,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "7641-96252-0004",
+          "speaker_id": "7641",
+          "angle_degrees": 0,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        },
+        {
+          "utterance_id": "7697-105815-0023",
+          "speaker_id": "7697",
+          "angle_degrees": 50,
+          "start_seconds": 0,
+          "duration_seconds": 10
+        }
+      ],
+      "source_subset": "dev-other"
+    }
+  ],
+  "parents": [
+    {
+      "path": "data/manifests/s1_candidate_v1.json",
+      "sha256": "e19aaaada822ec6a8ee1bdf628f2aa1a1a22402c09bf78c3a5b1fd8de26e6434",
+      "archive_sha256": "39fde525e59672dc6d1551919b1478f724438a95aa55f874b576be21967e6c23",
+      "source_subset": "test-clean"
+    },
+    {
+      "path": "data/raw/s1_dev_clean_v1/manifest.json",
+      "sha256": "30fe106697c0faaa6faa4babebc639434bedd6c869e0db5afdfe09ff3ea1b1af",
+      "archive_sha256": "76f87d090650617fca0cac8f88b9416e0ebf80350acb97b343a85fa903728ab3",
+      "source_subset": "dev-clean"
+    },
+    {
+      "path": "data/raw/s1_dev_other_v1/manifest.json",
+      "sha256": "7fa9b618a529f12bd374909de4bdd4c424408ad6f78afb121beb8f16c3ee7fa4",
+      "archive_sha256": "12661c48e8c3fe1de2c1caa4c3e135193bfb1811584f11f569dd12645aa84365",
+      "source_subset": "dev-other"
+    }
+  ],
+  "statistical_scope": "Speaker-disjoint simulated scenes conditional on one English read-speech corpus. Report each subset separately; this is not universal acoustic or population independence.",
+  "split_validation": {
+    "status": "split_overlap_check_passed",
+    "record_counts": {
+      "development": 3,
+      "tuning": 0,
+      "heldout": 180
+    },
+    "unique_speakers": 93,
+    "unique_files": 153,
+    "has_heldout": true
+  },
+  "policy_sha256": "eee6e1fc9e237ab9be7d234cbf5b9263b7e2709159dc2d9025538435ced70f11",
+  "registry_sha256": "41493d2059a891ba6ff2f2c4eb86c8b929ab9cb971b8c314518ac935c812f172",
+  "tool_sha256": "94b5f210012776254795d4cea0df871f42c3d12c591a52f57f1f99af2ed48152",
+  "selection_code_sha256": "8c60cc3318540ca9ea41623aa75f619594702fdeb6436d9283533eea096c7a2d"
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.1",
+  "experiment_id": "M1-DAS-engineering",
+  "array_config": "../array/ula16_v1.json",
+  "seed": 20260919,
+  "duration_s": 2.0,
+  "source_angles_deg": [-45, 0, 50],
+  "source_kind": "amplitude_modulated_bandlimited_noise_not_speech",
+  "source_band_hz": [500, 5000],
+  "noise_rms": 0.004,
+  "fft_sizes": [256, 512],
+  "block_size": 733,
+  "evaluation_trim_s": 0.05,
+  "evaluation_band_hz": [500, 5000]
+}

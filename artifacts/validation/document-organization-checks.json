@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-22",
+  "scope": "documentation-only organization",
+  "topic_documents": 31,
+  "maintained_markdown_files": 62,
+  "local_links_checked": 195,
+  "broken_local_links": 0,
+  "unindexed_topic_documents": 0,
+  "legacy_path_references_outside_frozen_artifacts": 0,
+  "moved_documents_and_figures": 33,
+  "categories": [
+    "规划与进度",
+    "架构与规范",
+    "实验与验证",
+    "技术决策",
+    "参考研究",
+    "图表"
+  ],
+  "docs_root_files": [
+    "文档索引.md",
+    "文档管理规则.md"
+  ],
+  "algorithm_version_changed": false,
+  "algorithm_tests_rerun": false,
+  "note": "Historical experiment artifacts and frozen manifests were not rewritten. Existing v0.3.7 test evidence remains unchanged."
+}

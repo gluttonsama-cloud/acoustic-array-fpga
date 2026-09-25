@@ -1,0 +1,95 @@
+{
+  "run": "artifacts\\runs\\g1_components_20260923T055258_076337Z",
+  "cases": 6,
+  "method_rows": 18,
+  "target_band_rows": 108,
+  "tests_passed": 202,
+  "output_hashes_verified": 44,
+  "source_snapshot_hashes_verified": 42,
+  "maximum_parent_score_difference": 7.105427357601002e-14,
+  "maximum_power_identity_error": 1.3877787807814457e-17,
+  "maximum_linearity_error": 3.026441944276037e-15,
+  "independent_review": {
+    "model": "gpt-6-sol",
+    "reasoning_effort": "medium",
+    "status": "approved_followup",
+    "scope": "original component numerical semantics and temporal behavior; main retained original artifact hash verification"
+  },
+  "summary": [
+    {
+      "band": "fullband",
+      "method": "das",
+      "target_count": 15,
+      "direct_gain_min": 0.9955664395225877,
+      "direct_gain_max": 0.9999906328912569,
+      "worst_direct_error_db": -43.074424873056934,
+      "median_reflection_to_direct_db": 9.249241263461183,
+      "median_output_sir_db": -3.008354122703354
+    },
+    {
+      "band": "fullband",
+      "method": "fixed_constraint",
+      "target_count": 15,
+      "direct_gain_min": 0.9420931285415587,
+      "direct_gain_max": 1.0258489210635242,
+      "worst_direct_error_db": -19.446123693151897,
+      "median_reflection_to_direct_db": 10.675588044730983,
+      "median_output_sir_db": -2.950854225120807
+    },
+    {
+      "band": "fullband",
+      "method": "mpdr_load0.1",
+      "target_count": 15,
+      "direct_gain_min": 0.9639368380802193,
+      "direct_gain_max": 1.003225647069095,
+      "worst_direct_error_db": -24.713214966815954,
+      "median_reflection_to_direct_db": 7.715138932706802,
+      "median_output_sir_db": -0.8480349952242183
+    },
+    {
+      "band": "evaluation_band",
+      "method": "das",
+      "target_count": 15,
+      "direct_gain_min": 0.9954500042049961,
+      "direct_gain_max": 1.000018850740841,
+      "worst_direct_error_db": -42.857164243107405,
+      "median_reflection_to_direct_db": 7.160079966258017,
+      "median_output_sir_db": 0.1530844913812368
+    },
+    {
+      "band": "evaluation_band",
+      "method": "fixed_constraint",
+      "target_count": 15,
+      "direct_gain_min": 0.9996706159513701,
+      "direct_gain_max": 1.009179067389608,
+      "worst_direct_error_db": -26.90837792263806,
+      "median_reflection_to_direct_db": 8.733493080731334,
+      "median_output_sir_db": -1.9583635952843026
+    },
+    {
+      "band": "evaluation_band",
+      "method": "mpdr_load0.1",
+      "target_count": 15,
+      "direct_gain_min": 0.9957677038627389,
+      "direct_gain_max": 1.001350608927681,
+      "worst_direct_error_db": -28.538318714101315,
+      "median_reflection_to_direct_db": 5.320154105251356,
+      "median_output_sir_db": 1.2796200364671861
+    }
+  ],
+  "documentation": {
+    "local_links_checked": 251,
+    "broken_links": 0,
+    "unindexed_documents": 0
+  },
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "independent_review_history": [
+    {
+      "model": "gpt-6-sol",
+      "reasoning_effort": "medium",
+      "status": "incomplete_usage_limit",
+      "fallback": "none; no downgrade or Astra substitution"
+    }
+  ]
+}

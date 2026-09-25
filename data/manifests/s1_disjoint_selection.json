@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "frozen_before_new_corpus_inspection": "2026-09-22",
+  "dataset_id": "openslr12-librispeech",
+  "license": "CC-BY-4.0",
+  "subset_order": ["test-clean", "dev-clean", "dev-other"],
+  "selection": "Use the first numeric utterance of each of the 30 speakers in existing s1_candidate_v1 for test-clean. For dev-clean and dev-other use separately frozen 30-speaker, one-utterance policies. No algorithm scores used. Reject overlapping speakers or source hashes across all 90 records, and any overlap with development/tuning speakers or hashes.",
+  "scene_assembly": "Within each subset, numeric speaker order, consecutive triples, angles -45/0/50 degrees, first 10 seconds. Ten scenes per subset, thirty total. No speaker or recording reuse.",
+  "statistical_scope": "Speaker-disjoint simulated scenes conditional on one English read-speech corpus. Report each subset separately; this is not universal acoustic or population independence.",
+  "status": "unscored_selection_only"
+}

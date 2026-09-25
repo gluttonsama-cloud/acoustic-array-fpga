@@ -1,0 +1,251 @@
+{
+  "runs": {
+    "baseline": {
+      "room": "artifacts\\runs\\g1_room_20260923T160031_617601Z",
+      "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160242_868507Z"
+    },
+    "wide_outer": {
+      "room": "artifacts\\runs\\g1_room_20260923T160252_014910Z",
+      "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160458_797004Z"
+    },
+    "staggered": {
+      "room": "artifacts\\runs\\g1_room_20260923T160507_757281Z",
+      "mpdr": "artifacts\\runs\\g1_mpdr_20260923T160713_349584Z"
+    }
+  },
+  "output_hashes_verified": 309,
+  "source_hashes_verified": 270,
+  "baseline_max_score_difference_db": 0.0,
+  "reference_rirs_sources_masks_gains_bitwise_equal": true,
+  "tests_passed": 248,
+  "rows": [
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0",
+      "method": "das",
+      "full_db": 1.5331226032541556,
+      "band_db": 5.7248539104454474,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0",
+      "method": "fixed_constraint",
+      "full_db": 2.93885661961426,
+      "band_db": 24.641263054246746,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0",
+      "method": "mpdr_load0.1",
+      "full_db": 3.527561914909532,
+      "band_db": 18.08405403461527,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0.4",
+      "method": "das",
+      "full_db": 1.0841245850757648,
+      "band_db": 3.0698778520061953,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0.4",
+      "method": "fixed_constraint",
+      "full_db": -1.6574167555495567,
+      "band_db": -1.1385944204822316,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "baseline",
+      "case": "r2_gap30_rt0.4",
+      "method": "mpdr_load0.1",
+      "full_db": 1.5066968595540704,
+      "band_db": 3.6341532227194993,
+      "full_change_db": 0.0,
+      "band_change_db": 0.0
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0",
+      "method": "das",
+      "full_db": 2.37570578511695,
+      "band_db": 10.060024437801781,
+      "full_change_db": 0.8425831818627945,
+      "band_change_db": 4.3351705273563335
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0",
+      "method": "fixed_constraint",
+      "full_db": 4.704607871374238,
+      "band_db": 25.6190106176597,
+      "full_change_db": 1.765751251759978,
+      "band_change_db": 0.9777475634129544
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0",
+      "method": "mpdr_load0.1",
+      "full_db": 5.2480987840447435,
+      "band_db": 19.921207911838927,
+      "full_change_db": 1.7205368691352114,
+      "band_change_db": 1.8371538772236562
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0.4",
+      "method": "das",
+      "full_db": 1.4372426605234434,
+      "band_db": 3.869897822279148,
+      "full_change_db": 0.3531180754476786,
+      "band_change_db": 0.8000199702729525
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0.4",
+      "method": "fixed_constraint",
+      "full_db": 0.016610755909992392,
+      "band_db": 1.577318144206881,
+      "full_change_db": 1.674027511459549,
+      "band_change_db": 2.7159125646891127
+    },
+    {
+      "array": "wide_outer",
+      "case": "r2_gap30_rt0.4",
+      "method": "mpdr_load0.1",
+      "full_db": 2.0368925093651615,
+      "band_db": 4.247129170443337,
+      "full_change_db": 0.5301956498110911,
+      "band_change_db": 0.6129759477238377
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0",
+      "method": "das",
+      "full_db": 1.5320986623445094,
+      "band_db": 5.70725993053334,
+      "full_change_db": -0.0010239409096461927,
+      "band_change_db": -0.01759397991210765
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0",
+      "method": "fixed_constraint",
+      "full_db": 2.9660962971820224,
+      "band_db": 24.79617467718909,
+      "full_change_db": 0.027239677567762577,
+      "band_change_db": 0.15491162294234329
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0",
+      "method": "mpdr_load0.1",
+      "full_db": 3.775727039183004,
+      "band_db": 17.91735574344321,
+      "full_change_db": 0.2481651242734717,
+      "band_change_db": -0.16669829117206092
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0.4",
+      "method": "das",
+      "full_db": 1.3204152005597134,
+      "band_db": 3.8954609889036576,
+      "full_change_db": 0.23629061548394859,
+      "band_change_db": 0.8255831368974622
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0.4",
+      "method": "fixed_constraint",
+      "full_db": -1.1932693630316091,
+      "band_db": -0.2709421232985214,
+      "full_change_db": 0.46414739251794757,
+      "band_change_db": 0.8676522971837102
+    },
+    {
+      "array": "staggered",
+      "case": "r2_gap30_rt0.4",
+      "method": "mpdr_load0.1",
+      "full_db": 5.068182309839585,
+      "band_db": 8.412905396673949,
+      "full_change_db": 3.561485450285515,
+      "band_change_db": 4.77875217395445
+    }
+  ],
+  "geometry": {
+    "baseline": {
+      "aperture_m": 0.4572,
+      "minimum_pair_spacing_m": 0.03047999999999998,
+      "span_xyz_m": [
+        0.4572,
+        0.0,
+        0.0
+      ],
+      "reference_m": [
+        -0.01524,
+        0.0,
+        0.0
+      ]
+    },
+    "wide_outer": {
+      "aperture_m": 0.6858,
+      "minimum_pair_spacing_m": 0.03048,
+      "span_xyz_m": [
+        0.6858,
+        0.0,
+        0.0
+      ],
+      "reference_m": [
+        -0.01524,
+        0.0,
+        0.0
+      ]
+    },
+    "staggered": {
+      "aperture_m": 0.46112020124908865,
+      "minimum_pair_spacing_m": 0.03048,
+      "span_xyz_m": [
+        0.4572,
+        0.06,
+        0.0
+      ],
+      "reference_m": [
+        -0.01524,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "decision": {
+    "wide_outer": {
+      "retain_for_recording_candidate": false,
+      "wet_full_gain_db": 0.5301956498110911,
+      "wet_band_gain_db": 0.6129759477238377,
+      "dry_full_gain_db": 1.7205368691352114
+    },
+    "staggered": {
+      "retain_for_recording_candidate": true,
+      "wet_full_gain_db": 3.561485450285515,
+      "wet_band_gain_db": 4.77875217395445,
+      "dry_full_gain_db": 0.2481651242734717
+    }
+  },
+  "review": "gpt-6-sol medium; mapping issue fixed and independently closed",
+  "independent_results_review": "gpt-6-sol medium: shared physical MIC/RIR/mask/gains and selected decision independently verified",
+  "documentation": {
+    "links_checked": 312,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "ruff": "check and format passed"
+}

@@ -1,0 +1,234 @@
+{
+  "run": "artifacts/runs/w4_static_20260924T071810_404897Z",
+  "output_hashes_verified": 54,
+  "summary": {
+    "das": {
+      "matched": 0,
+      "missed": 12,
+      "false_peaks": 1
+    },
+    "srp_phat": {
+      "matched": 7,
+      "missed": 5,
+      "false_peaks": 4
+    }
+  },
+  "posthoc_diagnostic_only_not_threshold_retuning": [
+    {
+      "case": "r2_gap15_rt0.4",
+      "method": "das",
+      "max_score": 0.0008607951352482132,
+      "all_local_maxima": [
+        {
+          "angle_deg": 3.0,
+          "score": 0.0008607951352482132
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "case": "r2_gap15_rt0.4",
+      "method": "srp_phat",
+      "max_score": 0.4840397734371083,
+      "all_local_maxima": [
+        {
+          "angle_deg": 2.0,
+          "score": 0.4840397734371083
+        },
+        {
+          "angle_deg": 13.0,
+          "score": 0.3127830818323859
+        },
+        {
+          "angle_deg": -69.0,
+          "score": 0.10734673743565917
+        },
+        {
+          "angle_deg": 64.0,
+          "score": 0.05012104973998255
+        },
+        {
+          "angle_deg": 40.0,
+          "score": 0.013999382213312964
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "case": "r2_gap45_rt0.4",
+      "method": "das",
+      "max_score": 0.0006102975640477824,
+      "all_local_maxima": [
+        {
+          "angle_deg": 3.0,
+          "score": 0.0006102975640477824
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "case": "r2_gap45_rt0.4",
+      "method": "srp_phat",
+      "max_score": 0.3187322209992306,
+      "all_local_maxima": [
+        {
+          "angle_deg": 45.0,
+          "score": 0.3187322209992306
+        },
+        {
+          "angle_deg": 1.0,
+          "score": 0.251391746537703
+        },
+        {
+          "angle_deg": -90.0,
+          "score": 0.11229771823285031
+        },
+        {
+          "angle_deg": -76.0,
+          "score": 0.11214158452457945
+        },
+        {
+          "angle_deg": -47.0,
+          "score": 0.10603016786605134
+        },
+        {
+          "angle_deg": 90.0,
+          "score": 0.048453959722081344
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case": "r3_gap15_rt0.4",
+      "method": "das",
+      "max_score": 0.0010830105425440092,
+      "all_local_maxima": [
+        {
+          "angle_deg": 6.0,
+          "score": 0.0010830105425440092
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "case": "r3_gap15_rt0.4",
+      "method": "srp_phat",
+      "max_score": 0.3548036597766759,
+      "all_local_maxima": [
+        {
+          "angle_deg": 2.0,
+          "score": 0.3548036597766759
+        },
+        {
+          "angle_deg": -68.0,
+          "score": 0.149946863576814
+        },
+        {
+          "angle_deg": 42.0,
+          "score": 0.08823359528410482
+        },
+        {
+          "angle_deg": 55.0,
+          "score": 0.07925902734116856
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "case": "r3_gap45_rt0.4",
+      "method": "das",
+      "max_score": 0.0008212589986731528,
+      "all_local_maxima": [
+        {
+          "angle_deg": 22.0,
+          "score": 0.0008212589986731528
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "case": "r3_gap45_rt0.4",
+      "method": "srp_phat",
+      "max_score": 0.26274621526087116,
+      "all_local_maxima": [
+        {
+          "angle_deg": 45.0,
+          "score": 0.26274621526087116
+        },
+        {
+          "angle_deg": 0.0,
+          "score": 0.2419775171147605
+        },
+        {
+          "angle_deg": 29.0,
+          "score": 0.2204618927163202
+        },
+        {
+          "angle_deg": -54.0,
+          "score": 0.1471165183362537
+        }
+      ],
+      "targets_with_local_peak_within_5deg": [
+        false,
+        true,
+        true
+      ]
+    }
+  ],
+  "documentation_check": {
+    "links": 329,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "role": "python-reviewer",
+    "status": "no_blocker_with_warnings",
+    "open_limitations": [
+      "uncalibrated_detection_thresholds",
+      "boundary_peak_confidence"
+    ]
+  },
+  "tests": {
+    "full_suite_passed": 264,
+    "new_localization_tests": 16,
+    "ruff_check": "passed",
+    "ruff_format_files": 95
+  },
+  "current_increment_sha256": {
+    "src/acoustic_array/localization/scan.py": "ff73c7e1f786084655b7b180a42ca187459ce3a786d218c54bcb426660349962",
+    "src/acoustic_array/localization/__init__.py": "c5fb4a2183f05b3ef3d04bdbb4e4796b07bfdc3c5406bdb63fccf249bbe54a34",
+    "tests/test_localization.py": "caf430e5968f295bab532e880e45c6a0f6ef8ed6ead13361757788a36bbfd9bb",
+    "tools/w4_static_demo.py": "cd9a862a5b4d57d19ec39f7bf05fb2bbc7ddd387bafc66c464cedeed03eda1af",
+    "configs/experiments/w4_static.json": "86399b3181242af1ebbbd77ce48f5f5c9773ed8620fd8f663a2c29068f87451b"
+  }
+}

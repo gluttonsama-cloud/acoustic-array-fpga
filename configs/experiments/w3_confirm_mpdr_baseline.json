@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "room_run": "../../artifacts/runs/g1_room_20260923T042446_546511Z",
+  "fft_size": 512,
+  "calibration_seconds": 3.0,
+  "diagonal_loadings": [
+    0.1
+  ],
+  "primary_loading": 0.1,
+  "band_hz": [
+    100,
+    5000
+  ],
+  "min_wng_db": -10,
+  "max_condition": 1000000,
+  "selected_cases": [
+    "r2_gap15_rt0.4",
+    "r2_gap45_rt0.4",
+    "r3_gap15_rt0.4",
+    "r3_gap45_rt0.4"
+  ]
+}

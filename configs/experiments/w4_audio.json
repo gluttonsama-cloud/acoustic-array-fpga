@@ -1,0 +1,17 @@
+{
+  "schema_version": "0.1",
+  "parent_run": "../../artifacts/runs/g1_room_20260923T171109_297143Z",
+  "baseline_run": "../../artifacts/runs/w4_boundary_20260924T150817_390183Z",
+  "onset_run": "../../artifacts/runs/w4_onset_20260925T034430_129538Z",
+  "cases": ["r2_gap15_rt0.4", "r2_gap45_rt0.4", "r3_gap15_rt0.4", "r3_gap45_rt0.4"],
+  "fft_size": 512,
+  "calibration_seconds": 3.0,
+  "band_hz": [100, 5000],
+  "evaluation_band_hz": [500, 5000],
+  "diagonal_loading": 0.1,
+  "min_wng_db": -10,
+  "max_condition": 1000000,
+  "matching_tolerance_deg": 5,
+  "minimum_median_gain_db": 1.0,
+  "maximum_case_regression_db": 1.0
+}

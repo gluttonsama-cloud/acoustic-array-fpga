@@ -1,0 +1,41 @@
+{
+  "run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\w4_reference_mix_20260925T045253_402665Z",
+  "verification": {
+    "manifest_sha256": "967e9d269c180ea26a814a4c558664a11bc71f5085f10f05b654ad0f504e31dd",
+    "completion_present": true
+  },
+  "outputs_verified": 89,
+  "wav_verified": 28,
+  "max_pcm24_error": 1.1897645260661172e-07,
+  "gate": {
+    "passed": false,
+    "status": "threshold_not_met",
+    "protection_passed": false,
+    "utility_passed": true,
+    "minimum_target_improvement_db": {
+      "fullband": -0.9962801882360139,
+      "evaluation_band": -2.2082533929515122
+    },
+    "localized_median_improvement_db": {
+      "fullband": 3.300954896647597,
+      "evaluation_band": 4.224157060280113
+    },
+    "localized_target_count": 10
+  },
+  "full_tests_passed": 397,
+  "test_seconds": 29.85,
+  "ruff": "passed",
+  "review": "pending; previously requested Sol reviewers unavailable due usage limit, no retry/escalation",
+  "documentation": {
+    "checked_links": 404,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "review_followup": {
+    "date": "2026-09-25",
+    "model": "gpt-6-sol",
+    "scope": "reference_mix numerical core only",
+    "status": "approved",
+    "experiment_runner_full_independent_review": false
+  }
+}

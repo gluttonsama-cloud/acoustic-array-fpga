@@ -1,0 +1,15 @@
+{
+  "checks": [
+    {
+      "run": "artifacts\\runs\\activity_20260921T154540_277837Z",
+      "hashes_verified": true,
+      "rows": 6
+    },
+    {
+      "run": "artifacts\\runs\\activity_20260921T154542_972491Z",
+      "hashes_verified": true,
+      "rows": 6
+    }
+  ],
+  "cross_fft_masks_identical": true
+}

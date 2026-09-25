@@ -1,0 +1,507 @@
+{
+  "run": "artifacts\\runs\\g1_room_20260923T042446_546511Z",
+  "run_status": "complete",
+  "expected_cases": 18,
+  "completed_cases": 18,
+  "method_rows": 72,
+  "target_results_per_reference_band": 216,
+  "metric_failures": 0,
+  "source_snapshot_hashes_verified": 38,
+  "output_hashes_verified": 72,
+  "post_start_changes": [
+    "evaluation/decay.py",
+    "pipelines/room_experiment.py"
+  ],
+  "post_start_change_reason": "zero-energy schema and checkpoint lifecycle only; existing positive-energy RIR summaries reproduced identically",
+  "rir_channel_summaries_recomputed": 576,
+  "tests_passed": 191,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "pip_check": "passed",
+  "independent_review": {
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "status": "approved"
+  },
+  "summary": [
+    {
+      "nominal_rt60_s": 0,
+      "fft_size": 512,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.5865772288958335,
+          "p10_linear": 0.7124003118131409,
+          "min": 0.7112613402481904,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 6.004657487928524,
+          "p10_linear": 2.297795660239987,
+          "min": 2.2824203144943036,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 1.5865772288958335,
+          "p10_linear": 0.7124003118131409,
+          "min": 0.7112613402481904,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 6.004657487928524,
+          "p10_linear": 2.297795660239987,
+          "min": 2.2824203144943036,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "fft_size": 512,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": 2.9517643637699855,
+          "p10_linear": 1.4557766157358847,
+          "min": 1.4473087176809702,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 24.98460164323186,
+          "p10_linear": 8.822298868445412,
+          "min": 8.789367871520199,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 2.9517643637699855,
+          "p10_linear": 1.4557766157358847,
+          "min": 1.4473087176809702,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 24.98460164323186,
+          "p10_linear": 8.822298868445412,
+          "min": 8.789367871520199,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "fft_size": 1024,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.586517227288192,
+          "p10_linear": 0.7126306801633182,
+          "min": 0.7117819737858255,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 6.013518658021697,
+          "p10_linear": 2.2984042816227497,
+          "min": 2.285243275588792,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 1.586517227288192,
+          "p10_linear": 0.7126306801633182,
+          "min": 0.7117819737858255,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 6.013518658021697,
+          "p10_linear": 2.2984042816227497,
+          "min": 2.285243275588792,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "fft_size": 1024,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": 3.1838649984258094,
+          "p10_linear": 1.4027271066969278,
+          "min": 1.4017324294596187,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 30.493697112660357,
+          "p10_linear": 8.02521223449626,
+          "min": 8.015137395116835,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 3.1838649984258094,
+          "p10_linear": 1.4027271066969278,
+          "min": 1.4017324294596187,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 30.493697112660357,
+          "p10_linear": 8.02521223449626,
+          "min": 8.015137395116835,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "fft_size": 512,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.018487504867866,
+          "p10_linear": 0.8169306970899415,
+          "min": 0.7517529670468281,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 3.5706160794440125,
+          "p10_linear": 2.4933805114027994,
+          "min": 2.3961908205482327,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -0.3040998882188445,
+          "p10_linear": -0.7166986535143914,
+          "min": -0.8105014667381092,
+          "positive_cases": 1
+        },
+        "evaluation_band": {
+          "median": 0.2806334906288684,
+          "p10_linear": -1.0116593556880935,
+          "min": -1.182639973825714,
+          "positive_cases": 4
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "fft_size": 512,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -0.8361850418600003,
+          "p10_linear": -4.394256398694379,
+          "min": -5.5098676092945045,
+          "positive_cases": 3
+        },
+        "evaluation_band": {
+          "median": 1.2607076908091672,
+          "p10_linear": -6.355654411330205,
+          "min": -7.572843218635702,
+          "positive_cases": 4
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -8.016467030306922,
+          "p10_linear": -9.759709435454669,
+          "min": -10.003099320003171,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -14.071540481343806,
+          "p10_linear": -27.863016911957672,
+          "min": -33.89498240761855,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "fft_size": 1024,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.0171546999044185,
+          "p10_linear": 0.8164690866329547,
+          "min": 0.7506818736141039,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 3.570944312722284,
+          "p10_linear": 2.4937621125780858,
+          "min": 2.3978389184978672,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -0.30479640345459835,
+          "p10_linear": -0.7170784717186808,
+          "min": -0.8105645939198036,
+          "positive_cases": 1
+        },
+        "evaluation_band": {
+          "median": 0.28011384871492345,
+          "p10_linear": -1.0119467185573643,
+          "min": -1.1818877451350793,
+          "positive_cases": 4
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "fft_size": 1024,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -0.7727211098798206,
+          "p10_linear": -4.1716722488134765,
+          "min": -5.273347523268537,
+          "positive_cases": 3
+        },
+        "evaluation_band": {
+          "median": 1.4753565680564646,
+          "p10_linear": -6.124210465709819,
+          "min": -7.42384098415541,
+          "positive_cases": 4
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -6.783991923446758,
+          "p10_linear": -9.267230324515861,
+          "min": -9.460689403933387,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -13.92270357616553,
+          "p10_linear": -25.246413358495808,
+          "min": -29.36792775376615,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "fft_size": 512,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.7897915445574029,
+          "p10_linear": 0.23471609485038059,
+          "min": 0.08415328402326949,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 3.3136046531997376,
+          "p10_linear": 2.975417496726976,
+          "min": 2.9696669399815434,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -1.3404946195993666,
+          "p10_linear": -1.6396287656178297,
+          "min": -1.7019751055541192,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -1.995917084932592,
+          "p10_linear": -2.91968080901448,
+          "min": -3.30890910321279,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "fft_size": 512,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -2.436224428543108,
+          "p10_linear": -6.644689874624142,
+          "min": -7.289559752699596,
+          "positive_cases": 1
+        },
+        "evaluation_band": {
+          "median": -0.6341046107430204,
+          "p10_linear": -9.613146248815266,
+          "min": -10.5826810417973,
+          "positive_cases": 3
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -11.694737647976044,
+          "p10_linear": -16.198721077051108,
+          "min": -17.954650021832673,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -11.095066592047111,
+          "p10_linear": -22.021292837338745,
+          "min": -25.689406198214076,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "fft_size": 1024,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.7881534759077766,
+          "p10_linear": 0.23354488756820224,
+          "min": 0.08286987720006778,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 3.3126891482783387,
+          "p10_linear": 2.9750075895777215,
+          "min": 2.968423007464475,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -1.3432894020403803,
+          "p10_linear": -1.6421128696353258,
+          "min": -1.7064088387594705,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -2.008843431345127,
+          "p10_linear": -2.9202260653043686,
+          "min": -3.30943711864814,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "fft_size": 1024,
+      "method": "constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -2.344116967766684,
+          "p10_linear": -6.076754055847943,
+          "min": -6.571163515527045,
+          "positive_cases": 2
+        },
+        "evaluation_band": {
+          "median": -0.3342914264339232,
+          "p10_linear": -9.36472255110175,
+          "min": -10.38763763144133,
+          "positive_cases": 3
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -10.998675444605517,
+          "p10_linear": -15.093918856770923,
+          "min": -16.56697443218858,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -14.830378742691657,
+          "p10_linear": -21.799506259324495,
+          "min": -24.48839969603378,
+          "positive_cases": 0
+        }
+      }
+    }
+  ],
+  "decay": [
+    {
+      "nominal_rt60_s": 0.2,
+      "broadband_t20": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.16167897459813996,
+        "median": 0.1716407362074464,
+        "max": 0.17811421355733847,
+        "minimum_r_squared": 0.9879820368643585
+      },
+      "broadband_t30": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.17210848814522184,
+        "median": 0.1789659588284062,
+        "max": 0.1841318503516312,
+        "minimum_r_squared": 0.9936523337140306
+      },
+      "broadband_worst_tail_energy_db": -88.36236251368575,
+      "evaluation_band_t20": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.14562748176684598,
+        "median": 0.16025067109756436,
+        "max": 0.18039214738388684,
+        "minimum_r_squared": 0.9838101451437081
+      },
+      "evaluation_band_t30": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.15197664997262664,
+        "median": 0.16898481014537292,
+        "max": 0.17885832130988794,
+        "minimum_r_squared": 0.9888156690184275
+      },
+      "evaluation_band_worst_tail_energy_db": -90.96781063944343
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "broadband_t20": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.44566547091359426,
+        "median": 0.484497062187909,
+        "max": 0.5020902125612031,
+        "minimum_r_squared": 0.9964775256511632
+      },
+      "broadband_t30": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.47444579206013515,
+        "median": 0.4933131251282647,
+        "max": 0.5026301799850081,
+        "minimum_r_squared": 0.9973496848607221
+      },
+      "broadband_worst_tail_energy_db": -67.99862155927295,
+      "evaluation_band_t20": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.36957212794634864,
+        "median": 0.4001158615963653,
+        "max": 0.43472016644649325,
+        "minimum_r_squared": 0.9933166365485615
+      },
+      "evaluation_band_t30": {
+        "valid": 288,
+        "expected": 288,
+        "min": 0.38711087312462267,
+        "median": 0.4160216702884303,
+        "max": 0.4339983337269199,
+        "minimum_r_squared": 0.9940049166268405
+      },
+      "evaluation_band_worst_tail_energy_db": -71.13203909828586
+    }
+  ],
+  "local_links_checked": 229,
+  "documentation_index_coverage": "complete",
+  "wheel_build": {
+    "status": "passed",
+    "path": "artifacts\\dist\\acoustic_array_fpga-0.3.9-py3-none-any.whl",
+    "sha256": "30719652dbb06477b56b7872bf52898907f360aedd022d7c5247b4aaa4cd3d4d"
+  }
+}

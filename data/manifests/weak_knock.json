@@ -1,0 +1,32 @@
+{
+  "schema_version": "0.1",
+  "purpose": "development wood knock proxy; not rescue recording or held-out set",
+  "selection": "category door_wood_knock, filename ascending first; no score-based selection",
+  "dataset": "ESC-50",
+  "commit": "33c8ce9eb2cf0b1c2f8bcf322eb349b6be34dbb6",
+  "license": "CC-BY-NC-3.0",
+  "creator": "Robinhood76",
+  "original_title": "01801 knocking.wav",
+  "original_url": "https://freesound.org/people/Robinhood76/sounds/101336/",
+  "dataset_credit": "Karol J. Piczak, ESC-50",
+  "file": {
+    "path": "../external/esc50_knock/1-101336-A-30.wav",
+    "url": "https://raw.githubusercontent.com/karolpiczak/ESC-50/33c8ce9eb2cf0b1c2f8bcf322eb349b6be34dbb6/audio/1-101336-A-30.wav",
+    "sha256": "e738266e395e378102f74e0920b05ff5937543788420d5b2a6b8d3df8bdb3910",
+    "bytes": 441044,
+    "metadata": {
+      "filename": "1-101336-A-30.wav",
+      "fold": "1",
+      "target": "30",
+      "category": "door_wood_knock",
+      "esc10": "False",
+      "src_file": "101336",
+      "take": "A"
+    }
+  },
+  "support_files_sha256": {
+    "esc50.csv": "ca660da60191a97de289983a05821c9382d852a38a2ba8428980816b68cf6246",
+    "LICENSE": "f6aec3a3283a2efdcbb1feff334adad7ab17c097bdec0cbb4eebdb9e16886074",
+    "README.md": "60a3ae8cecca8488f5381ef54f302396dbd1b0d82ae0d14afc92a4bfd6b34501"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": "0.1",
+  "room_run": "../../artifacts/runs/g1_room_20260923T042446_546511Z",
+  "knock_manifest": "../../data/manifests/weak_knock.json",
+  "cases": [
+    "r2_gap30_rt0",
+    "r2_gap30_rt0.4"
+  ],
+  "target_source_index": 1,
+  "interference_source_index": 0,
+  "target_start_s": 4.0,
+  "target_rms": 0.01,
+  "sir_db": -10.0,
+  "noise_snr_db": 20.0,
+  "calibration_seconds": 3.0,
+  "angle_errors_deg": [
+    -2,
+    0,
+    2
+  ],
+  "sector_half_width_deg": 2.0,
+  "diagonal_loading": 0.1,
+  "seed": 20260923,
+  "fft_size": 512,
+  "band_hz": [
+    100,
+    5000
+  ],
+  "max_condition": 1000000,
+  "min_wng_db": -10
+}

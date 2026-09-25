@@ -1,0 +1,48 @@
+{
+  "run": "artifacts/runs/w4_temporal_20260924T134214_107106Z",
+  "manifest_sha256": "e73e0cf7ca4b3d1d0434e562cb7670d5076fa12fc6fe93e1af5d8c8542a8f4a6",
+  "output_hashes_verified": 55,
+  "decision": {
+    "matched": 4,
+    "false_peaks": 0,
+    "no_case_match_regression": false,
+    "pass_for_audio_integration": false
+  },
+  "same_frame_control": {
+    "frames": 560,
+    "matched": 7,
+    "false_peaks": 4,
+    "same_counts_as_561_frame_baseline": true
+  },
+  "posthoc_read_only_truth_vote_diagnostic": {
+    "r2_gap15_rt0.4": [0.0, 0.15476190476190477, 0.0],
+    "r2_gap45_rt0.4": [0.0, 0.17857142857142855, 0.03571428571428571],
+    "r3_gap15_rt0.4": [0.0, 0.15476190476190474, 0.0],
+    "r3_gap45_rt0.4": [0.0, 0.19047619047619047, 0.0]
+  },
+  "tests": {
+    "new_temporal_tests": 29,
+    "localization_tests": 45,
+    "full_suite_passed": 293,
+    "ruff_check": "passed",
+    "ruff_format_files": 97
+  },
+  "review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "role": "python-reviewer",
+    "status": "approved_no_critical_or_high_findings",
+    "experimental_limit": "uncalibrated development candidate; research gate failed"
+  },
+  "documentation_check": {
+    "links": 337,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "current_increment_sha256": {
+    "src/acoustic_array/localization/temporal.py": "be85e4e71591f72037b74c76e7ea137dfce12e8cbd85195cce2fdc84c0b98f93",
+    "tests/test_temporal_localization.py": "35e551d5e74a4a32cf79dd63a2fb9998f423eb9beff169f97a1640e945c5206b",
+    "tools/w4_static_demo.py": "6cce4d9acdca3d42ab409d2b6f72b65d15042005cb347593671510a09af32a0c",
+    "configs/experiments/w4_temporal.json": "f1ae17dc142c20541ffe22c11659a4ab75791794eaea8e51e99b3cfd15e578ea"
+  }
+}

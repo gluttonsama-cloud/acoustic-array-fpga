@@ -1,0 +1,34 @@
+{
+  "run": "artifacts\\runs\\w1_knock_20260923T145540_156150Z",
+  "rows": 36,
+  "tests_passed": 239,
+  "output_hashes_verified": 291,
+  "source_hashes_verified": 45,
+  "wav_score_max_difference_db": 7.196263851483309e-08,
+  "wav_linearity_max_error": 1.4799297787249088e-08,
+  "input_sir_max_error_db": 5.2188902088801115e-09,
+  "input_snr_max_error_db": 3.683190641368128e-09,
+  "sector_minus_single_sir_changes_db": [
+    -20.53070922416672,
+    -19.51139845531938,
+    -1.7152913417658855,
+    -1.7664981619242148
+  ],
+  "sir_median_change_db": -10.638948308621798,
+  "sir_worst_change_db": -20.53070922416672,
+  "target_control_worst_change_db": -0.7529785229645007,
+  "candidate_selected": false,
+  "review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "status": "core numeric and pipeline review completed; final in-band reporting fix independently unreviewed due usage limit; main verifies52bin counts"
+  },
+  "scope": "single-output weak target demonstration, not multi-source or rescue acceptance",
+  "documentation": {
+    "links_checked": 302,
+    "broken": 0,
+    "unindexed": 0
+  },
+  "ruff_check": "passed",
+  "ruff_format": "passed"
+}

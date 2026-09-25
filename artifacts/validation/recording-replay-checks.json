@@ -1,0 +1,31 @@
+{
+  "run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\recording_20260925T085842_778501Z",
+  "archive": {
+    "manifest_sha256": "489b4c4ce8f25177d9f1a2fe4937bbee59c6a63c235d6e15cbf0d6c2c8a709f3",
+    "completion_present": true
+  },
+  "candidate_angles_deg": [
+    20.0
+  ],
+  "reference_samples_exact": true,
+  "start_sample": 156000,
+  "wav_quantization_verified": true,
+  "before_after_fix_output_identical": true,
+  "input_evidence": "synthetic_only",
+  "independent_review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "status": "approved_after_fixes",
+    "targeted_tests": 39
+  },
+  "tests": {
+    "full_passed": 414,
+    "seconds": 40.53,
+    "ruff": "passed"
+  },
+  "documentation": {
+    "checked_links": 411,
+    "broken": 0,
+    "unindexed": 0
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "development_only",
+  "runs": {
+    "single": {
+      "run": "artifacts\\runs\\w4_onset_20260925T034319_552273Z",
+      "verification": {
+        "manifest_sha256": "b44d94a4a5492bcb1d8d7ef5eb0d59125295c44397573a34bab087457eba87ab",
+        "completion_present": true
+      },
+      "summary": {
+        "direct_only": {
+          "matched": 12,
+          "missed": 0,
+          "false_peaks": 0
+        },
+        "reverberant": {
+          "matched": 10,
+          "missed": 2,
+          "false_peaks": 2
+        }
+      },
+      "gate": true
+    },
+    "triple": {
+      "run": "artifacts\\runs\\w4_onset_20260925T034430_129538Z",
+      "verification": {
+        "manifest_sha256": "bf6d14e01faf15dcd79fbeed42b72b2af02283f8a97ad9430a2b483ab2cae19e",
+        "completion_present": true
+      },
+      "summary": {
+        "direct_only": {
+          "matched": 12,
+          "missed": 0,
+          "false_peaks": 0
+        },
+        "reverberant": {
+          "matched": 10,
+          "missed": 2,
+          "false_peaks": 2
+        }
+      },
+      "gate": true
+    }
+  },
+  "tests": {
+    "full_suite_passed": 375,
+    "duration_seconds": 40.58,
+    "targeted_passed": 50,
+    "ruff": "passed"
+  },
+  "independent_review": {
+    "model": "gpt-6-sol",
+    "effort": "medium",
+    "role": "python-reviewer",
+    "status": "approved_after_two_numeric_fixes"
+  },
+  "docs": {
+    "links_checked": 382,
+    "broken": 0,
+    "unindexed": 0
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "0.2",
+  "config_id": "w3_staggered",
+  "status": "simulation_candidate_not_hardware_spec",
+  "source": "references/input/array_parameters_v1.pdf",
+  "sample_rate_hz": 48000,
+  "pdm_clock_hz": 3072000,
+  "decimation_factor": 64,
+  "microphone_count": 16,
+  "spacing_m": 0.03048,
+  "aperture_m": 0.46112020124908865,
+  "geometry": {
+    "kind": "explicit_coordinates",
+    "axis": "xyz",
+    "origin": "array_center",
+    "channel_order": "MIC0_to_MIC15_row_order",
+    "forward_axis": "+y",
+    "positive_angle_toward": "+x",
+    "angle_unit": "deg"
+  },
+  "reference_microphone_index": 7,
+  "sound_speed_m_per_s": 343.0,
+  "sound_speed_status": "simulation_assumption_measure_temperature_for_real_tests",
+  "spatial_processing_band_hz": [
+    500,
+    5000
+  ],
+  "initial_source_angles_deg": [
+    -45,
+    0,
+    50
+  ],
+  "initial_output_count": 3,
+  "stft_candidates": {
+    "fft_sizes": [
+      256,
+      512
+    ],
+    "hop_fraction": 0.5,
+    "analysis_window_candidate": "hann_periodic",
+    "synthesis_window": null,
+    "selected_fft_size": null
+  },
+  "hardware_pending": {
+    "microphone_model": null,
+    "fpga_part": null,
+    "vivado_version": null,
+    "fft_ip_configuration": null,
+    "cic_stages": null,
+    "cic_differential_delay": null,
+    "pcm_word_bits": null
+  },
+  "positions_m": [
+    [
+      -0.2286,
+      -0.03,
+      0.0
+    ],
+    [
+      -0.19812,
+      0.03,
+      0.0
+    ],
+    [
+      -0.16764,
+      -0.03,
+      0.0
+    ],
+    [
+      -0.13716,
+      0.03,
+      0.0
+    ],
+    [
+      -0.10668,
+      -0.03,
+      0.0
+    ],
+    [
+      -0.0762,
+      0.03,
+      0.0
+    ],
+    [
+      -0.04572,
+      -0.03,
+      0.0
+    ],
+    [
+      -0.01524,
+      0.0,
+      0.0
+    ],
+    [
+      0.01524,
+      0.0,
+      0.0
+    ],
+    [
+      0.04572,
+      0.03,
+      0.0
+    ],
+    [
+      0.0762,
+      -0.03,
+      0.0
+    ],
+    [
+      0.10668,
+      0.03,
+      0.0
+    ],
+    [
+      0.13716,
+      -0.03,
+      0.0
+    ],
+    [
+      0.16764,
+      0.03,
+      0.0
+    ],
+    [
+      0.19812,
+      -0.03,
+      0.0
+    ],
+    [
+      0.2286,
+      0.03,
+      0.0
+    ]
+  ],
+  "spacing_m_note": "legacy nominal spacing; actual geometry exclusively positions_m"
+}

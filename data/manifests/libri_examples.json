@@ -1,0 +1,36 @@
+{
+  "schema_version": "0.1",
+  "dataset_id": "librosa-librispeech-three-examples",
+  "split": "development_only_not_heldout",
+  "dataset_url": "https://www.openslr.org/12/",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "registry_url": "https://raw.githubusercontent.com/librosa/librosa/main/librosa/util/example_data/registry.txt",
+  "verified_on": "2026-09-19",
+  "files": [
+    {
+      "speaker_id": "5703",
+      "path": "../raw/libri_examples/5703-47212-0000.ogg",
+      "url": "https://librosa.org/data/audio/5703-47212-0000.ogg",
+      "sha256": "a284612b46af0535f7e1873758c4387bb8369f6dbbe192ffdec1f171108f98dd",
+      "attribution": "The Ashiel Mystery, narrated by Garth Comira; LibriSpeech/LibriVox; hosted by librosa",
+      "license_note_url": "https://librosa.org/data/audio/5703-47212-0000.txt"
+    },
+    {
+      "speaker_id": "3436",
+      "path": "../raw/libri_examples/3436-172162-0000.ogg",
+      "url": "https://librosa.org/data/audio/3436-172162-0000.ogg",
+      "sha256": "780e482b52f2c8a500356babf60178ce005449cc171a8537eb3ef2961eb3e855",
+      "attribution": "The Age of Chivalry, narrated by Anders Lankford; LibriSpeech/LibriVox; hosted by librosa",
+      "license_note_url": "https://librosa.org/data/audio/3436-172162-0000.txt"
+    },
+    {
+      "speaker_id": "198",
+      "path": "../raw/libri_examples/198-209-0000.ogg",
+      "url": "https://librosa.org/data/audio/198-209-0000.ogg",
+      "sha256": "0473ba9613befa1026db5e254546f105aeffba8366b5468fc5e8d474d844ca1d",
+      "attribution": "Sense and Sensibility, Chapter 18, narrated by Heather Barnett; LibriSpeech/LibriVox; hosted by librosa",
+      "license_note_url": "https://librosa.org/data/audio/198-209-0000.txt"
+    }
+  ]
+}

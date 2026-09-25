@@ -1,0 +1,40 @@
+{
+  "run": "artifacts\\runs\\g1_near_field_20260922T121333_173315Z",
+  "output_hashes_verified": 33,
+  "code_hashes_verified": 32,
+  "rows": 48,
+  "target_results_per_band": 144,
+  "failed_targets": 0,
+  "local_links_checked": 211,
+  "broken_links": [],
+  "post_run_format_only_changes": [
+    {
+      "file": "__init__.py",
+      "change": "ruff normalized version-line LF to CRLF only",
+      "experiment_sha256": "08cd0c788095d072cce4de4ed1041015bee5bb9515d3ccd72bf0f09b567528a7",
+      "current_sha256": "ab4e04959187beb56534bb1a54430c5ec6efd858b6e5ef3d72101965cb5c8cac"
+    }
+  ],
+  "tests_passed": 180,
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "pip_check": "passed",
+  "run_time_source_snapshot": "artifacts/validation/g1-near-field-source-snapshot",
+  "run_time_source_hashes_verified": 35,
+  "post_run_validation_changes": {
+    "files": [
+      "__init__.py",
+      "core/geometry.py",
+      "simulation/near_field.py"
+    ],
+    "reason": "distance bool/complex rejection plus version-line formatting; valid-input weight matrices identical",
+    "weight_archives_recomputed_identical": 24
+  },
+  "independent_review": {
+    "role": "python-reviewer",
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "status": "approved",
+    "resolved": "reject bool and all NumPy complex distance scalars before conversion"
+  }
+}

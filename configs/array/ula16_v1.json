@@ -1,0 +1,44 @@
+{
+  "schema_version": "0.1",
+  "config_id": "ula16-v1",
+  "status": "document_baseline_not_hardware_verified",
+  "source": "references/input/array_parameters_v1.pdf",
+  "sample_rate_hz": 48000,
+  "pdm_clock_hz": 3072000,
+  "decimation_factor": 64,
+  "microphone_count": 16,
+  "spacing_m": 0.03048,
+  "aperture_m": 0.4572,
+  "geometry": {
+    "kind": "uniform_linear",
+    "axis": "x",
+    "origin": "array_center",
+    "channel_order": "MIC0_to_MIC15_increasing_x",
+    "coordinate_formula": "x_m=(m-(microphone_count-1)/2)*spacing_m",
+    "forward_axis": "+y",
+    "positive_angle_toward": "+x",
+    "angle_unit": "deg"
+  },
+  "reference_microphone_index": 7,
+  "sound_speed_m_per_s": 343.0,
+  "sound_speed_status": "simulation_assumption_measure_temperature_for_real_tests",
+  "spatial_processing_band_hz": [500, 5000],
+  "initial_source_angles_deg": [-45, 0, 50],
+  "initial_output_count": 3,
+  "stft_candidates": {
+    "fft_sizes": [256, 512],
+    "hop_fraction": 0.5,
+    "analysis_window_candidate": "hann_periodic",
+    "synthesis_window": null,
+    "selected_fft_size": null
+  },
+  "hardware_pending": {
+    "microphone_model": null,
+    "fpga_part": null,
+    "vivado_version": null,
+    "fft_ip_configuration": null,
+    "cic_stages": null,
+    "cic_differential_delay": null,
+    "pcm_word_bits": null
+  }
+}

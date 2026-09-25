@@ -1,0 +1,20 @@
+[
+  {
+    "run": "artifacts\\runs\\components_20260920T052619_155993Z",
+    "parent": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T050935_962434Z_3e5fb489",
+    "hashes_verified": true,
+    "reconstruction_relative_l2": 3.9608237571938147e-16
+  },
+  {
+    "run": "artifacts\\runs\\components_20260920T052624_198528Z",
+    "parent": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T051004_825352Z_65f42caa",
+    "hashes_verified": true,
+    "reconstruction_relative_l2": 2.8504485544659606e-16
+  },
+  {
+    "run": "artifacts\\runs\\components_20260920T052629_391165Z",
+    "parent": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T051035_639401Z_56fc5830",
+    "hashes_verified": true,
+    "reconstruction_relative_l2": 3.99446797733579e-16
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "parent_audio_run": "../../artifacts/runs/w4_audio_20260925T044316_271112Z",
+  "reference_fraction": 0.5,
+  "minimum_target_improvement_db": -1.0,
+  "minimum_localized_median_improvement_db": 3.0,
+  "cases": [
+    "r2_gap15_rt0.4",
+    "r2_gap45_rt0.4",
+    "r3_gap15_rt0.4",
+    "r3_gap45_rt0.4"
+  ]
+}

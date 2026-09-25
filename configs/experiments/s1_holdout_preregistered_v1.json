@@ -1,0 +1,87 @@
+{
+  "schema_version": "s1-preregistration-1.0",
+  "status": "frozen_before_scores_runner_pending",
+  "created_date": "2026-09-22",
+  "corpus_manifest": "../../data/manifests/s1_disjoint_v1.json",
+  "corpus_sha256": "aaac16e7a4d971d4005a79935301f476f8783f2cc0afc0c8eea3431a9bc7066f",
+  "array_config": "../array/ula16_v1.json",
+  "array_sha256": "6f999c402819a8794fc6926753c446244baf2d3bbfc90a429d4bcda10049b140",
+  "duration_s": 10,
+  "source_start_s": 0,
+  "active_rms": 0.04,
+  "loader_preprocess_rms": 0.04,
+  "noise_snr_db": 20,
+  "trim_samples": 2400,
+  "angles_deg": [
+    -45,
+    0,
+    50
+  ],
+  "seed_rule": "20260922 + scene index in frozen manifest order",
+  "primary": {
+    "method": "fixed_constraint",
+    "fft_size": 512,
+    "hop_size": 256,
+    "constraint_band_hz": [
+      100,
+      5000
+    ],
+    "min_wng_db": -10,
+    "max_condition": 10000
+  },
+  "secondary": {
+    "method": "fixed_constraint",
+    "fft_size": 1024,
+    "hop_size": 512,
+    "constraint_band_hz": [
+      100,
+      5000
+    ],
+    "min_wng_db": -10,
+    "max_condition": 10000
+  },
+  "baselines": [
+    "single_reference_microphone",
+    "das_same_fft_and_input"
+  ],
+  "block_size": 733,
+  "evaluation_band_hz": [
+    500,
+    5000
+  ],
+  "primary_metric": "minimum of three active-reference-mask SI-SDR improvements per scene in evaluation band",
+  "additional_metrics": [
+    "whole_and_active_fullband",
+    "whole_evaluation_band",
+    "source_active_rms",
+    "actual_active_snr",
+    "mask_fraction",
+    "constraint_status_and_wng"
+  ],
+  "statistics": {
+    "scene_count": 30,
+    "strata": [
+      "test-clean",
+      "dev-clean",
+      "dev-other"
+    ],
+    "scenes_per_stratum": 10,
+    "quantile_method": "inverted_cdf",
+    "bootstrap_scheme": "resample 10 scenes within each stratum, concatenate to 30; preserve stratum counts",
+    "bootstrap_samples": 2000,
+    "bootstrap_seed": 20260922,
+    "confidence": 0.95,
+    "failed_scene_score": "negative_infinity",
+    "unplanned_silent_or_invalid_source": "failed scene; no replacement or denominator removal",
+    "b1_median_min_db": 10,
+    "b1_p10_min_db": 6,
+    "decision": "Thresholds apply to preregistered primary only; secondary cannot rescue failed primary. Report strata descriptively; bootstrap is conditional on selected corpus, not population proof."
+  },
+  "activity_policy": "ActivityConfig defaults frozen by ADR0008/0009; mask before final gain; filter before mask; identical masks for methods",
+  "limits": [
+    "given DOA, far-field, no room reverberation",
+    "English read speech, original 16 kHz",
+    "no hardware, automatic localization or fixed-point claim"
+  ],
+  "selection_basis": "Primary 512 balances previously observed development results and shorter buffering; 1024 retained as prespecified secondary. No holdout algorithm scores inspected."
+}

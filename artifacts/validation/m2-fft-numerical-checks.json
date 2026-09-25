@@ -1,0 +1,29 @@
+[
+  {
+    "fft_size": 512,
+    "relative_l2_identity": 2.2463957901722714e-16,
+    "first_full_output_input_wait_ms": 10.666666666666666,
+    "hop_ms": 5.333333333333333,
+    "frequency_spacing_hz": 93.75,
+    "coefficient_count_complex": 12336,
+    "beamforming_complex_mac_per_s": 2313000.0
+  },
+  {
+    "fft_size": 1024,
+    "relative_l2_identity": 2.415363860168988e-16,
+    "first_full_output_input_wait_ms": 21.333333333333332,
+    "hop_ms": 10.666666666666666,
+    "frequency_spacing_hz": 46.875,
+    "coefficient_count_complex": 24624,
+    "beamforming_complex_mac_per_s": 2308500.0
+  },
+  {
+    "fft_size": 2048,
+    "relative_l2_identity": 2.483952167030423e-16,
+    "first_full_output_input_wait_ms": 42.666666666666664,
+    "hop_ms": 21.333333333333332,
+    "frequency_spacing_hz": 23.4375,
+    "coefficient_count_complex": 49200,
+    "beamforming_complex_mac_per_s": 2306250.0
+  }
+]

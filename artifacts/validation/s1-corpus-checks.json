@@ -1,0 +1,23 @@
+{
+  "manifest_sha256": "e19aaaada822ec6a8ee1bdf628f2aa1a1a22402c09bf78c3a5b1fd8de26e6434",
+  "files_verified_and_decoded": 90,
+  "selected_bytes": 23824591,
+  "speakers": 30,
+  "scenes": 30,
+  "speaker_clusters": 10,
+  "split_validation": {
+    "status": "split_overlap_check_passed",
+    "record_counts": {
+      "development": 3,
+      "tuning": 0,
+      "heldout": 90
+    },
+    "unique_speakers": 33,
+    "unique_files": 93,
+    "has_heldout": true
+  },
+  "archive_sha256": "39fde525e59672dc6d1551919b1478f724438a95aa55f874b576be21967e6c23",
+  "min_duration_seconds": 10.005,
+  "final_directory": "data/raw/s1_candidate_verified_v1",
+  "second_preparation_hashes_match_first": true
+}

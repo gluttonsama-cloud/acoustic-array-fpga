@@ -1,0 +1,32 @@
+[
+  {
+    "config": "configs\\experiments\\m2_fft_1024_wng_0.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T060909_708302Z_ddf62eba",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T060925_008459Z"
+  },
+  {
+    "config": "configs\\experiments\\m2_fft_1024_wng_minus10.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T060927_725157Z_8140a9be",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T060943_046128Z"
+  },
+  {
+    "config": "configs\\experiments\\m2_fft_2048_wng_minus10.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T060945_744072Z_2d0c1b2c",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T061001_150802Z"
+  },
+  {
+    "config": "configs\\experiments\\m2_fft_512_wng_minus10.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T061003_852487Z_decbe2d9",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T061019_746017Z"
+  },
+  {
+    "config": "configs\\experiments\\m2_fft_1024_noise_stress.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T061047_024653Z_abcade00",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T061100_734144Z"
+  },
+  {
+    "config": "configs\\experiments\\m2_fft_2048_noise_stress.json",
+    "speech_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\speech_20260920T061103_371718Z_aa03b50a",
+    "component_run": "D:\\AAAwork\\qiansai\\acoustic-array-fpga\\artifacts\\runs\\components_20260920T061118_062169Z"
+  }
+]

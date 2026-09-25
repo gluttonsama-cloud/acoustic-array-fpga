@@ -1,0 +1,18 @@
+{
+  "run": "artifacts\\runs\\active_scene_20260921T155711_417490Z",
+  "hashes_verified": true,
+  "masks_and_gains_bitwise_rebuilt": true,
+  "source_active_rms": [
+    0.04,
+    0.04,
+    0.04
+  ],
+  "reference_noise_rms": 0.004000000000000001,
+  "measured_active_snr_db": [
+    20.001152572251275,
+    19.99531809413379,
+    19.999999999999996
+  ],
+  "archive_bytes": 11370489,
+  "drive_free_bytes": 1357561856
+}

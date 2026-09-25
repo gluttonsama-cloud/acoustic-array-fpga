@@ -1,0 +1,18 @@
+{
+  "run": "artifacts\\runs\\speech_20260919T155643_653358Z_936bac15",
+  "metrics_rows": 84,
+  "diagnostic_weight_files": 14,
+  "output_hashes": "PASS",
+  "source_hashes": "PASS",
+  "repeated_nominal_outputs_bitwise_equal": true,
+  "source_energy_below_500_hz_pct": [
+    86.01940142552202,
+    64.46362834455417,
+    47.994054472664835
+  ],
+  "energy_method": "demeaned preprocessed 10s sources, whole-clip rectangular rFFT power ratio; DC zero, negligible Nyquist",
+  "max_output_peak": 0.46606359298077965,
+  "max_constraint_residual": 6.788328462272862e-15,
+  "min_wng_db": 7.554130008899992,
+  "total_fallback_bin_outputs": 0
+}

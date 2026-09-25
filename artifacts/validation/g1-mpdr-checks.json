@@ -1,0 +1,420 @@
+{
+  "run": "artifacts\\runs\\g1_mpdr_20260923T054058_952802Z",
+  "cases": 18,
+  "method_rows": 72,
+  "failed_target_metrics": 0,
+  "output_hashes_verified": 96,
+  "source_hashes_verified": 40,
+  "summary": [
+    {
+      "nominal_rt60_s": 0,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.5373047156846815,
+          "p10_linear": 0.6783408677330325,
+          "min": 0.677775040612842,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 5.747858783864079,
+          "p10_linear": 2.1463020054354254,
+          "min": 2.136906624280547,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 1.5373047156846815,
+          "p10_linear": 0.6783408677330325,
+          "min": 0.677775040612842,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 5.747858783864079,
+          "p10_linear": 2.1463020054354254,
+          "min": 2.136906624280547,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "method": "fixed_constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": 2.9504083321609365,
+          "p10_linear": 1.3724985553653148,
+          "min": 1.3664382379401052,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 24.67860435628174,
+          "p10_linear": 7.8829011796747785,
+          "min": 7.87716042736288,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 2.9504083321609365,
+          "p10_linear": 1.3724985553653148,
+          "min": 1.3664382379401052,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 24.67860435628174,
+          "p10_linear": 7.8829011796747785,
+          "min": 7.87716042736288,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "method": "mpdr_load0.1",
+      "direct_reference": {
+        "fullband": {
+          "median": 3.539979464202358,
+          "p10_linear": 1.6466905154730864,
+          "min": 1.6025190804268394,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 17.750401863104955,
+          "p10_linear": 6.997010252656982,
+          "min": 6.9563866683640025,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 3.539979464202358,
+          "p10_linear": 1.6466905154730864,
+          "min": 1.6025190804268394,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 17.750401863104955,
+          "p10_linear": 6.997010252656982,
+          "min": 6.9563866683640025,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0,
+      "method": "mpdr_load1.0",
+      "direct_reference": {
+        "fullband": {
+          "median": 2.216804592540062,
+          "p10_linear": 1.075758744342377,
+          "min": 1.0681554604996464,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 9.863251343070827,
+          "p10_linear": 4.176215869586834,
+          "min": 4.158802310699973,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": 2.216804592540062,
+          "p10_linear": 1.075758744342377,
+          "min": 1.0681554604996464,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 9.863251343070827,
+          "p10_linear": 4.176215869586834,
+          "min": 4.158802310699973,
+          "positive_cases": 6
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.7624897553802681,
+          "p10_linear": 0.5874321172369523,
+          "min": 0.4783792653070904,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 3.142986183951516,
+          "p10_linear": 2.0840094485690313,
+          "min": 2.0534875436167424,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -0.311840499364932,
+          "p10_linear": -0.7055209410318753,
+          "min": -0.8117598672731956,
+          "positive_cases": 1
+        },
+        "evaluation_band": {
+          "median": 0.050504872142752705,
+          "p10_linear": -1.122501672327986,
+          "min": -1.261005190294922,
+          "positive_cases": 4
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "method": "fixed_constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -1.7475812063407865,
+          "p10_linear": -4.651839229171084,
+          "min": -6.006318207618813,
+          "positive_cases": 2
+        },
+        "evaluation_band": {
+          "median": -0.3203970617556475,
+          "p10_linear": -7.706794464286679,
+          "min": -9.286898695552972,
+          "positive_cases": 3
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -7.935157992785623,
+          "p10_linear": -9.190369984495105,
+          "min": -9.291770540013307,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -15.260457728433119,
+          "p10_linear": -26.378388725351314,
+          "min": -28.61283875829013,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "method": "mpdr_load0.1",
+      "direct_reference": {
+        "fullband": {
+          "median": 1.317583071997896,
+          "p10_linear": 0.3787351779641037,
+          "min": 0.34292220479686897,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 4.437139602548948,
+          "p10_linear": 3.0016080251083537,
+          "min": 2.7955049570791264,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -2.079118859491783,
+          "p10_linear": -2.512223104748701,
+          "min": -2.851831042932575,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -2.755936660662492,
+          "p10_linear": -4.361730457988656,
+          "min": -5.902411321235432,
+          "positive_cases": 1
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.2,
+      "method": "mpdr_load1.0",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.9676980624750895,
+          "p10_linear": 0.48193403270683266,
+          "min": 0.44698744442031213,
+          "positive_cases": 6
+        },
+        "evaluation_band": {
+          "median": 4.360845502439568,
+          "p10_linear": 3.0483666793670636,
+          "min": 2.759979214265437,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -1.0388924037880234,
+          "p10_linear": -1.4446455363375141,
+          "min": -1.5335809206566506,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -1.211459670556296,
+          "p10_linear": -2.29218405497958,
+          "min": -2.8980645988665574,
+          "positive_cases": 1
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "method": "das",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.4383534572236183,
+          "p10_linear": -0.09799552457527305,
+          "min": -0.2555722875472419,
+          "positive_cases": 5
+        },
+        "evaluation_band": {
+          "median": 2.7526468477239696,
+          "p10_linear": 2.403718642612464,
+          "min": 2.3799815998778158,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -1.129836509878995,
+          "p10_linear": -1.4804996186035022,
+          "min": -1.5246002551149749,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -2.1335735192216143,
+          "p10_linear": -2.9894226847710383,
+          "min": -3.360973331938345,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "method": "fixed_constraint",
+      "direct_reference": {
+        "fullband": {
+          "median": -3.3134153709401,
+          "p10_linear": -10.052973471601529,
+          "min": -11.689715323926578,
+          "positive_cases": 1
+        },
+        "evaluation_band": {
+          "median": -2.9996106706705685,
+          "p10_linear": -13.456684440872856,
+          "min": -15.644362074273381,
+          "positive_cases": 2
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -11.535558825846886,
+          "p10_linear": -15.459602424337513,
+          "min": -17.472639413417877,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -11.373334970200748,
+          "p10_linear": -22.57754882507596,
+          "min": -25.16438381568675,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "method": "mpdr_load0.1",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.2780399099671511,
+          "p10_linear": -0.8919815650441834,
+          "min": -0.9482070282085076,
+          "positive_cases": 3
+        },
+        "evaluation_band": {
+          "median": 3.410441289143045,
+          "p10_linear": 2.530285233945592,
+          "min": 2.324156707835048,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -3.5119691746982453,
+          "p10_linear": -4.648920342070613,
+          "min": -4.694726415990912,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -6.322276288849517,
+          "p10_linear": -8.426883989015806,
+          "min": -9.854350095811728,
+          "positive_cases": 0
+        }
+      }
+    },
+    {
+      "nominal_rt60_s": 0.4,
+      "method": "mpdr_load1.0",
+      "direct_reference": {
+        "fullband": {
+          "median": 0.08036668949529702,
+          "p10_linear": -0.697843318213538,
+          "min": -0.7376588706154195,
+          "positive_cases": 3
+        },
+        "evaluation_band": {
+          "median": 3.4109501546011707,
+          "p10_linear": 2.8685993581229763,
+          "min": 2.569136852897355,
+          "positive_cases": 6
+        }
+      },
+      "reverberant_reference": {
+        "fullband": {
+          "median": -2.1967547749957292,
+          "p10_linear": -3.2336265433904674,
+          "min": -3.513945558138979,
+          "positive_cases": 0
+        },
+        "evaluation_band": {
+          "median": -4.571242270520677,
+          "p10_linear": -5.341447894752362,
+          "min": -5.5602157135238715,
+          "positive_cases": 0
+        }
+      }
+    }
+  ],
+  "weight_status_counts": {
+    "mpdr": 5616,
+    "outside_band_das": 22140
+  },
+  "max_distortionless_residual": 6.753223014464258e-16,
+  "min_active_wng_db": -1.8091784661928982,
+  "tests_passed": 199,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "pip_check": "passed",
+  "local_links_checked": 244,
+  "documentation_index_coverage": "complete",
+  "post_run_changes": {
+    "files": [
+      "pipelines/mpdr_experiment.py"
+    ],
+    "reason": "results_complete then atomic completion marker after manifest commit; numerical path unchanged"
+  },
+  "legacy_run_completion": "manifest hashes and 18-case 72-row completeness independently verified",
+  "independent_review": {
+    "role": "python-reviewer",
+    "model": "gpt-5.6-sol",
+    "reasoning_effort": "medium",
+    "status": "approved",
+    "resolved": "atomic completion marker after manifest; failure injection passed"
+  }
+}

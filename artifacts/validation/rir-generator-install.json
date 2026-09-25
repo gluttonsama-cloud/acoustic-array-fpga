@@ -1,0 +1,102 @@
+{
+  "version": "1",
+  "pip_version": "25.0.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/ba/79/b6a0c68947a40fadefd2ac9d95b0ca8d2e0344402a40e42ad91a43243f02/rir_generator-0.3.0-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hash": "sha256=61f8384567944c27f19a4a4ddb5ae19689a32d27e25a505b10f677073fc07424",
+          "hashes": {
+            "sha256": "61f8384567944c27f19a4a4ddb5ae19689a32d27e25a505b10f677073fc07424"
+          }
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "rir-generator",
+        "version": "0.3.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "Room Impulse Response Generator for Python",
+        "description": "# Room Impulse Response Generator\r\n\r\n[![Documentation Status](https://readthedocs.org/projects/rir-generator/badge/?version=latest)](https://rir-generator.readthedocs.io/en/latest/?badge=latest)\r\n[![CI Tests](https://github.com/audiolabs/rir-generator/actions/workflows/python-package.yml/badge.svg)](https://github.com/audiolabs/rir-generator/actions/workflows/python-package.yml)\r\n[![PyPI version](https://badge.fury.io/py/rir-generator.svg)](https://badge.fury.io/py/rir-generator)\r\n[![Python versions](https://img.shields.io/pypi/pyversions/rir-generator.svg)](https://pypi.org/project/rir-generator/)\r\n[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4133077.svg)](https://doi.org/10.5281/zenodo.4133077)\r\n\r\nPython- and C-based [room impulse response](https://en.wikipedia.org/wiki/Impulse_response#Acoustic_and_audio_applications) generator, for use in [convolutional reverb](https://en.wikipedia.org/wiki/Convolution_reverb).\r\n\r\nOfficial Python port of https://github.com/ehabets/RIR-Generator.\r\n\r\n## Installation\r\n\r\n```sh\r\npip install rir-generator\r\n```\r\n\r\n## Usage\r\n\r\n```python\r\nimport numpy as np\r\nimport scipy.signal as ss\r\nimport soundfile as sf\r\nimport rir_generator as rir\r\n\r\nsignal, fs = sf.read(\"bark.wav\", always_2d=True)\r\n\r\nh = rir.generate(\r\n    c=340,                  # Sound velocity (m/s)\r\n    fs=fs,                  # Sample frequency (samples/s)\r\n    r=[                     # Receiver position(s) [x y z] (m)\r\n        [2, 1.5, 1],\r\n        [2, 1.5, 2],\r\n        [2, 1.5, 3]\r\n    ],\r\n    s=[2, 3.5, 2],          # Source position [x y z] (m)\r\n    L=[5, 4, 6],            # Room dimensions [x y z] (m)\r\n    reverberation_time=0.4, # Reverberation time (s)\r\n    nsample=4096,           # Number of output samples\r\n)\r\n\r\nprint(h.shape)              # (4096, 3)\r\nprint(signal.shape)         # (11462, 2)\r\n\r\n# Convolve 2-channel signal with 3 impulse responses\r\nsignal = ss.convolve(h[:, None, :], signal[:, :, None])\r\n\r\nprint(signal.shape)         # (15557, 2, 3)\r\n```\r\n\r\n## Development\r\n\r\n### Installation for Development\r\n\r\n```sh\r\ngit clone https://github.com/audiolabs/rir-generator.git\r\ncd rir-generator\r\npip install -e .[dev]\r\n```\r\n\r\n### Running Tests\r\n\r\n```sh\r\npytest\r\n```\r\n\r\n### Building from Source\r\n\r\n```sh\r\npython -m build\r\n```\r\n\r\n### Project Structure\r\n\r\nThe project follows the `src/` layout with **automatic versioning from git tags**:\r\n\r\n```\r\nsrc/\r\n  rir_generator/\r\n    __init__.py           # Main Python module\r\n    _cffi/                # CFFI C++ extension bindings\r\n      build.py            # CFFI build configuration\r\n      rir_generator_core.cpp  # C++ implementation\r\n      rir_generator_core.h    # C++ header\r\n```\r\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "audio",
+          "acoustics",
+          "room impulse response",
+          "reverb",
+          "convolution"
+        ],
+        "author_email": "Emanuël Habets <emanuel.habets@audiolabs-erlangen.de>, Nils Werner <nils.werner@fau.de>",
+        "license": "MIT",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: C++",
+          "Topic :: Multimedia :: Sound/Audio",
+          "Topic :: Scientific/Engineering"
+        ],
+        "requires_dist": [
+          "numpy>=1.17.0",
+          "scipy>=1.0.0",
+          "cffi>=1.1.0",
+          "pytest>=6.0; extra == \"dev\"",
+          "pytest-cov>=2.0; extra == \"dev\"",
+          "pytest-black; extra == \"dev\"",
+          "build>=0.7.0; extra == \"dev\"",
+          "twine>=3.0.0; extra == \"dev\"",
+          "sphinx>=4.0.0; extra == \"docs\"",
+          "sphinxcontrib-napoleon; extra == \"docs\"",
+          "sphinxcontrib-bibtex; extra == \"docs\"",
+          "sphinx_rtd_theme; extra == \"docs\"",
+          "numpydoc>=1.0.0; extra == \"docs\"",
+          "pytest>=6.0; extra == \"tests\"",
+          "pytest-cov>=2.0; extra == \"tests\"",
+          "pytest-black; extra == \"tests\""
+        ],
+        "requires_python": ">=3.8",
+        "project_url": [
+          "Homepage, https://github.com/audiolabs/rir-generator",
+          "Documentation, https://rir-generator.readthedocs.io",
+          "Repository, https://github.com/audiolabs/rir-generator",
+          "Issues, https://github.com/audiolabs/rir-generator/issues",
+          "DOI, https://doi.org/10.5281/zenodo.4133077"
+        ],
+        "provides_extra": [
+          "dev",
+          "docs",
+          "tests"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.10",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "11",
+    "platform_system": "Windows",
+    "platform_version": "10.0.26200",
+    "python_full_version": "3.12.10",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}

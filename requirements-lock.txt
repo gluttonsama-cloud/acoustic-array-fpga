@@ -1,0 +1,20 @@
+# Validated on CPython 3.12.10 / Windows x64. Exact environment, not a universal lock.
+# Runtime + build + test tools. Install project separately with --no-deps.
+colorama==0.4.6
+iniconfig==2.3.0
+numpy==1.26.4
+packaging==26.3
+pip==25.0.1
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.0.3
+ruff==0.16.8
+scipy==1.17.1
+setuptools==83.0.0
+wheel==0.48.0
+soundfile==0.13.1
+cffi==2.1.1
+pycparser==3.0
+rir-generator==0.3.0
+Cython==3.3.0
+pyroomacoustics==0.10.1

@@ -1,0 +1,334 @@
+{
+  "status": "development_parameter_sweep_not_acceptance",
+  "core_algorithm_version": "0.3.0",
+  "records": [
+    {
+      "run": "speech_20260920T050921_302768Z_2278c8f2",
+      "experiment": "M2-lowband-100-wng-0",
+      "noise_rms": 0.002,
+      "lower_hz": 100,
+      "wng_threshold_db": 0,
+      "input_sha256": "08e78618806ab2744ec1bb59e68f714bdf41e79ca058a546b85c33a413a5933c",
+      "fullband_nominal_db": [
+        6.176685458274224,
+        3.2221746659141983,
+        3.3614017411022195
+      ],
+      "band_nominal_db": [
+        29.302756531773102,
+        26.718222144032076,
+        28.169874190222576
+      ],
+      "minimum_fullband_all_bias_targets_db": 2.98575440039989,
+      "max_output_peak": 0.4658407919685622,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": -5.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 6,
+          "max_residual": 0.9471833119125447,
+          "min_wng_db": 0.1072675129135792
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 1,
+          "weights_file": "weights_512_offset_index_1.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 6,
+          "max_residual": 0.9427792922505613,
+          "min_wng_db": 0.15019125876553013
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 5.0,
+          "offset_index": 2,
+          "weights_file": "weights_512_offset_index_2.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 6,
+          "max_residual": 0.9390932006100533,
+          "min_wng_db": 0.019578205755686563
+        }
+      ],
+      "first_offset_fallbacks": [
+        {
+          "frequency_hz": 187.5,
+          "target": 0,
+          "status": "fallback_white_noise_gain"
+        },
+        {
+          "frequency_hz": 187.5,
+          "target": 1,
+          "status": "fallback_white_noise_gain"
+        },
+        {
+          "frequency_hz": 187.5,
+          "target": 2,
+          "status": "fallback_white_noise_gain"
+        },
+        {
+          "frequency_hz": 281.25,
+          "target": 0,
+          "status": "fallback_white_noise_gain"
+        },
+        {
+          "frequency_hz": 281.25,
+          "target": 1,
+          "status": "fallback_white_noise_gain"
+        },
+        {
+          "frequency_hz": 281.25,
+          "target": 2,
+          "status": "fallback_white_noise_gain"
+        }
+      ],
+      "hashes_verified": true
+    },
+    {
+      "run": "speech_20260920T050935_962434Z_3e5fb489",
+      "experiment": "M2-lowband-100-wng--10",
+      "noise_rms": 0.002,
+      "lower_hz": 100,
+      "wng_threshold_db": -10,
+      "input_sha256": "08e78618806ab2744ec1bb59e68f714bdf41e79ca058a546b85c33a413a5933c",
+      "fullband_nominal_db": [
+        12.836103319225117,
+        4.304840600894437,
+        8.192575569176505
+      ],
+      "band_nominal_db": [
+        32.2603996163194,
+        25.885342197293426,
+        28.878887997483808
+      ],
+      "minimum_fullband_all_bias_targets_db": 4.0961415018634355,
+      "max_output_peak": 0.4658407919685622,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": -5.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 1,
+          "max_residual": 0.9471833119125447,
+          "min_wng_db": -7.96338574019508
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 1,
+          "weights_file": "weights_512_offset_index_1.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 1,
+          "max_residual": 0.9427792922505613,
+          "min_wng_db": -7.626514086207977
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 5.0,
+          "offset_index": 2,
+          "weights_file": "weights_512_offset_index_2.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 1,
+          "max_residual": 0.9390932006100533,
+          "min_wng_db": -7.428489110476982
+        }
+      ],
+      "first_offset_fallbacks": [
+        {
+          "frequency_hz": 187.5,
+          "target": 1,
+          "status": "fallback_white_noise_gain"
+        }
+      ],
+      "hashes_verified": true
+    },
+    {
+      "run": "speech_20260920T050950_561367Z_9ee41191",
+      "experiment": "M2-lowband-250-wng--10",
+      "noise_rms": 0.002,
+      "lower_hz": 250,
+      "wng_threshold_db": -10,
+      "input_sha256": "08e78618806ab2744ec1bb59e68f714bdf41e79ca058a546b85c33a413a5933c",
+      "fullband_nominal_db": [
+        7.643209619213992,
+        4.304840600894437,
+        4.0702135441855365
+      ],
+      "band_nominal_db": [
+        31.572238663077272,
+        25.885342197293426,
+        28.271417402501015
+      ],
+      "minimum_fullband_all_bias_targets_db": 3.5918121008278625,
+      "max_output_peak": 0.4658407919685622,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": -5.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 153,
+          "fallback_bin_outputs": 0,
+          "max_residual": 4.4552621993181806e-15,
+          "min_wng_db": -5.314304213936153
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 1,
+          "weights_file": "weights_512_offset_index_1.npz",
+          "active_bin_outputs": 153,
+          "fallback_bin_outputs": 0,
+          "max_residual": 6.215286544514474e-15,
+          "min_wng_db": -5.272864734962895
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 5.0,
+          "offset_index": 2,
+          "weights_file": "weights_512_offset_index_2.npz",
+          "active_bin_outputs": 153,
+          "fallback_bin_outputs": 0,
+          "max_residual": 3.9969513378251745e-15,
+          "min_wng_db": -5.400253995985349
+        }
+      ],
+      "first_offset_fallbacks": [],
+      "hashes_verified": true
+    },
+    {
+      "run": "speech_20260920T051004_825352Z_65f42caa",
+      "experiment": "M2-lowband-500-wng--10",
+      "noise_rms": 0.002,
+      "lower_hz": 500,
+      "wng_threshold_db": -10,
+      "input_sha256": "08e78618806ab2744ec1bb59e68f714bdf41e79ca058a546b85c33a413a5933c",
+      "fullband_nominal_db": [
+        4.9630115134638615,
+        2.620340066420995,
+        2.895329660806418
+      ],
+      "band_nominal_db": [
+        21.047053866788044,
+        18.763986057832255,
+        19.1737635618621
+      ],
+      "minimum_fullband_all_bias_targets_db": 2.442481210084604,
+      "max_output_peak": 0.4658407919685622,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": -5.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 144,
+          "fallback_bin_outputs": 0,
+          "max_residual": 1.7626420622109061e-15,
+          "min_wng_db": 7.618731038281918
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 1,
+          "weights_file": "weights_512_offset_index_1.npz",
+          "active_bin_outputs": 144,
+          "fallback_bin_outputs": 0,
+          "max_residual": 6.215286544514474e-15,
+          "min_wng_db": 7.6655965072796
+        },
+        {
+          "fft_size": 512,
+          "offset_deg": 5.0,
+          "offset_index": 2,
+          "weights_file": "weights_512_offset_index_2.npz",
+          "active_bin_outputs": 144,
+          "fallback_bin_outputs": 0,
+          "max_residual": 3.9969513378251745e-15,
+          "min_wng_db": 7.554130008899992
+        }
+      ],
+      "first_offset_fallbacks": [],
+      "hashes_verified": true
+    },
+    {
+      "run": "speech_20260920T051035_639401Z_56fc5830",
+      "experiment": "M2-lowband-100-noise-stress",
+      "noise_rms": 0.02,
+      "lower_hz": 100,
+      "wng_threshold_db": -10,
+      "input_sha256": "72da96f73acea0b264337efe2aff8adafa675b7f45c26d2edc57d554f364029a",
+      "fullband_nominal_db": [
+        12.43363644063978,
+        4.7024638389896785,
+        8.422373685201617
+      ],
+      "band_nominal_db": [
+        23.96221963932682,
+        21.521092879444673,
+        21.547192087718827
+      ],
+      "minimum_fullband_all_bias_targets_db": 4.7024638389896785,
+      "max_output_peak": 0.46457297219009486,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 156,
+          "fallback_bin_outputs": 1,
+          "max_residual": 0.9427792922505613,
+          "min_wng_db": -7.626514086207977
+        }
+      ],
+      "first_offset_fallbacks": [
+        {
+          "frequency_hz": 187.5,
+          "target": 1,
+          "status": "fallback_white_noise_gain"
+        }
+      ],
+      "hashes_verified": true
+    },
+    {
+      "run": "speech_20260920T051047_558566Z_5942408e",
+      "experiment": "M2-lowband-500-noise-stress",
+      "noise_rms": 0.02,
+      "lower_hz": 500,
+      "wng_threshold_db": -10,
+      "input_sha256": "72da96f73acea0b264337efe2aff8adafa675b7f45c26d2edc57d554f364029a",
+      "fullband_nominal_db": [
+        5.348929133566131,
+        3.067228098291083,
+        3.332184509981357
+      ],
+      "band_nominal_db": [
+        19.630193876915623,
+        17.72081587741251,
+        17.74931174749975
+      ],
+      "minimum_fullband_all_bias_targets_db": 3.067228098291083,
+      "max_output_peak": 0.46457297219009486,
+      "diagnostics": [
+        {
+          "fft_size": 512,
+          "offset_deg": 0.0,
+          "offset_index": 0,
+          "weights_file": "weights_512_offset_index_0.npz",
+          "active_bin_outputs": 144,
+          "fallback_bin_outputs": 0,
+          "max_residual": 6.215286544514474e-15,
+          "min_wng_db": 7.6655965072796
+        }
+      ],
+      "first_offset_fallbacks": [],
+      "hashes_verified": true
+    }
+  ],
+  "same_noise_group_input_hashes_identical": true
+}
